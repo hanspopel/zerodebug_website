@@ -105,7 +105,6 @@ export default class  ProductLandingPage extends React.Component{
                     </div>
                 </center>
             </div>
-            {desc_container}
             <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-dark">
                 <div class="desc-text-left">
                     <h3 class="display-4 font-weight-normal">full control</h3>
@@ -135,8 +134,8 @@ export default class  ProductLandingPage extends React.Component{
                         <li>   Eight years ago touchAble </li> 
                     </ul>
                 </div>
-        
             </div>
+            {desc_container}
         </div>
             );
         }
