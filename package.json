@@ -1,7 +1,7 @@
 {
   "homepage": "http://hanspopel.github.io/zerodebug_website",
   "name": "zerodebug_website",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
