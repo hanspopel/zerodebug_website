@@ -1,0 +1,13 @@
+
+[
+{
+	"app_id": "touchAble",
+	"icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+	"submenus":[ "manual", "install", "server", "faq" ]	
+},
+{
+	"app_id": "modstep",
+	"icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+	"submenus":[ "manual", "install", "server", "faq" ]
+}
+]

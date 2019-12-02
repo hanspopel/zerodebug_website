@@ -1,0 +1,195 @@
+{
+    "products": [
+      {
+        "submenus": [
+          {
+            "name": "manual",
+            "id": "manual"
+          },
+          {
+            "name": "windows",
+            "id": "setup-win"
+          },
+          {
+            "name": "mac",
+            "id": "setup-mac"
+          },
+          {
+            "name": "faq",
+            "id": "faq"
+          },
+          {
+            "name": "touchAble3",
+            "id": "touchAble3"
+          }
+          
+        ],
+        "social_media": [
+            {
+              "title": "Facebook",
+              "url": "https://www.facebook.com/touchableapp/",
+              "fa": "fa fa-facebook"
+            },
+            {
+                "title": "Twitter",
+              "url": "https://www.twitter.com/touchableapp/",
+              "fa": "fa fa-twitter" 
+              
+            },
+            {
+                "title": "Instagram",
+              "url": "https://www.instagram.com/touchableapp/",
+              "fa": "fa fa-instagram"
+            },
+            {
+              "title": "Youtube",
+              "url": "https://www.instagram.com/touchableapp/",
+              "fa": "fa fa-youtube"
+            }
+          ],
+        "icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+        "app_id": "touchAble",
+        "year": 2018
+      },
+      {
+        "submenus": [
+          {
+            "name": "landing_page",
+            "id": "manual"
+          },
+          {
+            "name": "manual",
+            "id": "manual"
+          },
+          {
+            "name": "windows",
+            "id": "manual"
+          },
+          {
+            "name": "mac",
+            "id": "manual"
+          },
+          {
+            "name": "faq",
+            "id": "manual"
+          }
+        ],
+        "social_media": [
+            {
+              "title": "Facebook",
+              "url": "https://www.facebook.com/touchableapp/",
+              "fa": "fa fa-facebook"
+            },
+            {
+                "title": "Twitter",
+              "url": "https://www.twitter.com/touchableapp/",
+              "fa": "fa fa-twitter" 
+              
+            },
+            {
+                "title": "Instagram",
+              "url": "https://www.instagram.com/touchableapp/",
+              "fa": "fa fa-instagram"
+            },
+            {
+              "title": "Youtube",
+              "url": "https://www.instagram.com/touchableapp/",
+              "fa": "fa fa-youtube"
+            }
+          ],
+        "app_id": "modstep",
+        "year": 2018,
+        "icon_source": "./modstep_icon_web.png"
+      },
+      {
+        "submenus": [
+          {
+            "name": "manual",
+            "id": "manual"
+          },
+          {
+            "name": "windows",
+            "id": "manual"
+          },
+          {
+            "name": "mac",
+            "id": "manual"
+          },
+          {
+            "name": "faq",
+            "id": "manual"
+          }
+        ],
+        "social_media": [
+            {
+              "title": "Facebook",
+              "url": "https://www.facebook.com/touchableapp/",
+              "fa": "fa fa-facebook"
+            }
+          ],
+        "app_id": "studiomux",
+        "year": 2018,
+        "icon_source": "./studiomux_icon_web.png"
+      },
+      {
+        "submenus": [
+          {
+            "name": "manual",
+            "id": "manual"
+          },
+          {
+            "name": "windows",
+            "id": "manual"
+          },
+          {
+            "name": "mac",
+            "id": "manual"
+          },
+          {
+            "name": "faq",
+            "id": "manual"
+          }
+        ],
+        "social_media": [
+            {
+              "title": "Facebook",
+              "url": "https://www.facebook.com/touchableapp/",
+              "fa": "fa fa-facebook"
+            }
+          ],
+        "app_id": "soda",
+        "icon_source":  "./soda_icon_web.png",
+        "year": 2018
+      },
+      {
+        "submenus": [
+          {
+            "name": "manual",
+            "id": "manual"
+          },
+          {
+            "name": "windows",
+            "id": "manual"
+          },
+          {
+            "name": "mac",
+            "id": "manual"
+          },
+          {
+            "name": "faq",
+            "id": "manual"
+          }
+        ],
+        "social_media": [
+            {
+              "title": "Facebook",
+              "url": "https://www.facebook.com/touchableapp/",
+              "fa": "fa fa-facebook"
+            }
+          ],
+        "app_id": "zerodebug",
+        "icon_source":  "./logo_zerodebug_white.png",
+        "year": 2018
+      }
+    ]
+  }
