@@ -163,22 +163,6 @@
       },
       {
         "submenus": [
-          {
-            "name": "manual",
-            "id": "manual"
-          },
-          {
-            "name": "windows",
-            "id": "manual"
-          },
-          {
-            "name": "mac",
-            "id": "manual"
-          },
-          {
-            "name": "faq",
-            "id": "manual"
-          }
         ],
         "social_media": [
             {

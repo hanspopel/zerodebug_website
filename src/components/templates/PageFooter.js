@@ -6,9 +6,9 @@ import '../../App.css';
 export default class  PageFooter extends React.Component{
     render() {
         return (
-            <footer class="container py-5 bg-dark">
+            <footer class="container asdasd py-5 bg-dark" width="100%">
             <div class="row">
-                <div class="col-6 col-md">
+                <div class="col-6 col-sm">
                     <h5 class="footer-heading">Location</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Zerodebug</a></li>
@@ -17,7 +17,7 @@ export default class  PageFooter extends React.Component{
                         <li><a class="text-muted" href="#">Germany</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-6  col-sm">
                     <h5 class="footer-heading">Contact</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Forum</a></li>
@@ -26,7 +26,7 @@ export default class  PageFooter extends React.Component{
                         <li><a class="text-muted" href="#"></a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-6 col-sm">
                     <h5 class="footer-heading">Products</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">touchAble</a></li>
@@ -35,7 +35,7 @@ export default class  PageFooter extends React.Component{
                         <li><a class="text-muted" href="#">modstep</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md">
+                <div class="col-sm col-sm">
                     <h5 class="footer-heading">Resources</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Privacy Policy</a></li>

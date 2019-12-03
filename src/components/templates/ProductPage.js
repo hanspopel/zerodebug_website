@@ -28,14 +28,19 @@ export default class PatientTable extends React.Component {
 createNavbar(){
 let selectSubPage = this.selectSubPage;
 let page_id = this.state.page_id;
-
+if (page_id != "zerodebug") {
 return (
-
 <div>
 <SubNavbar page_id={page_id} selectSubPage ={selectSubPage}/>
 </div>
-
 )
+}
+else {
+  return (
+  <div>
+</div>
+)
+}
 }
 
 createMain(props){

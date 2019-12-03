@@ -19,18 +19,24 @@ export default class SubNavbar extends React.Component {
       social_media_content: ""
     };
   }
+  nav = React.createRef();
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll, true);
+    this.nav.current.classList.add('ref={this.nav}');
+    //window.scrollY = 57;
   }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
+    this.nav.current.classList.remove('ref={this.nav}');
   }
-  nav = React.createRef();
   //selectProductPage() { /* completing stuff */ }
 handleScroll = () => {
     lastScrollY = window.scrollY;
+    if (!this.nav.current) {
+        return;
+    }
     if (lastScrollY > 56) {
         this.nav.current.classList.add('fixed-top');
         this.nav.current.classList.add('bottom_border_class');

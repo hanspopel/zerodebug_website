@@ -37,19 +37,137 @@
         "desc_container": [
           {
             "heading": "full control",
-            "image_source": "./touchable_landing.png",
-            "list_items": ["asdasd","asdasd","asdastgag","asasdsopopo","90-kl;asdkasd"],
+            "image_source": "./P9860008.jpeg",
+            "list_items": ["Control the transport, metronome, cues, and quantization","Trigger clips and scenes and control looping","Arm, mute, and solo tracks","Adjust monitoring","Mix, pan, crossfade, and control sends and returns"],
             "text_class": "desc-text-left",
             "image_class": "desc-image-right"
           },
           {
-            "heading": "full control22222",
+            "heading": "full control",
+            "image_source": "./P9860094.jpeg",
+            "list_items": ["Play instruments with grid or piano-style layouts, with scales, note repeat, aftertouch and velocity","Control device parameters, using faders or assignable X/Y pad modules","X/Y Pad: assign physics, make and morph snapshots","Navigate Live’s Browser, and drag and drop Devices and samples"],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          }
+        ]        
+      },
+      {
+        "icon_source": "./studiomux_icon_web.png",
+        "app_id": "studiomux",
+        "app_name_string": "touchAble Pro",
+        "year": 2018,
+        "intro_field": {
+          "image_source": "./studiomux_landing.png",
+          "intro_text": "total control over Ableton Live with your mobile devices",
+          "sub_intro_text": "total control over Ableton Live with your mobile devices",
+          "app_store": [
+            {
+              "id": "ios app_store",
+              "name": "iOS",
+              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8"
+            },
+            {
+              "id": "android app_store",
+              "name": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.zerodebug.touchablepro"
+            },
+            {
+              "id": "windows app_store",
+              "name": "Windows",
+              "url": "https://www.microsoft.com/store/apps/9P41L3H6M11K"
+            }
+          ]
+        },
+        "intro_text": {
+          "intro_heading": "everything you need directly at your fingertips",
+          "intro_text": "Eight years ago touchAble defined what a touch controller app for Live could do. touchAble Pro has been reimagined and recoded from the ground up, incorporating years of feedback from musicians at every level. touchAble Pro provides a cleaner interface, allows much more powerful customization and gives you the deepest access possible to Ableton Live. From waveform views to editors to automations - with touchAble Pro, you now have the complete Ableton Live experience literally at your fingertips. You can perform and edit without ever touching a mouse, you can customize your experience to access exactly the controls you need to edit or play. You’ll gain complete control that’s as portable as the smartphone, tablet or laptop you’re carrying with you."
+        },
+        "intro_video": {
+          "src_url": "https://www.youtube.com/embed/H6EnpjfztNw?rel=0"
+        },
+        "desc_container": [
+          {
+            "heading": "full control",
             "image_source": "./touchable_landing.png",
-            "list_items": ["asdasd","asdasd","asdahdfgdfgstgag","asasdasdasddopopo","90-kl;asdkasd"],
+            "list_items": ["Control the transport, metronome, cues, and quantization","Trigger clips and scenes and control looping","Arm, mute, and solo tracks","Adjust monitoring","Mix, pan, crossfade, and control sends and returns"],
+            "text_class": "desc-text-left",
+            "image_class": "desc-image-right"
+          },
+          {
+            "heading": "full control",
+            "image_source": "./touchable_landing.png",
+            "list_items": ["Play instruments with grid or piano-style layouts, with scales, note repeat, aftertouch and velocity","Control device parameters, using faders or assignable X/Y pad modules","X/Y Pad: assign physics, make and morph snapshots","Navigate Live’s Browser, and drag and drop Devices and samples"],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          }
+        ]        
+      },
+      {
+        "icon_source": "./zerodebug_icon_web.png",
+        "app_id": "zerodebug",
+        "app_name_string": "touchAble Pro",
+        "year": 2018,
+        "intro_field": {
+          "image_source": "./logo_zerodebug_white.png",
+          "intro_text": "total control over Ableton Live with your mobile devices",
+          "sub_intro_text": "total control over Ableton Live with your mobile devices",
+          "app_store": [
+            {
+              "id": "ios app_store",
+              "name": "iOS",
+              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8"
+            },
+            {
+              "id": "android app_store",
+              "name": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.zerodebug.touchablepro"
+            },
+            {
+              "id": "windows app_store",
+              "name": "Windows",
+              "url": "https://www.microsoft.com/store/apps/9P41L3H6M11K"
+            }
+          ]
+        },
+        "intro_text": {
+          "intro_icon" : "./logo_zerodebug_white.png",
+          "intro_heading": "zerodebug ",
+          "intro_text": "We are a Berlin based company working on our passion to make music touchable"
+        },
+        "intro_video": {
+          "src_url": "https://www.youtube.com/embed/H6EnpjfztNw?rel=0"
+        },
+        "desc_container": [
+          {
+            "heading": "touchAble",
+            "image_source": "./P9860094.jpeg",
+            "list_items": ["Control the transport, metronome, cues, and quantization","Trigger clips and scenes and control looping","Arm, mute, and solo tracks","Adjust monitoring","Mix, pan, crossfade, and control sends and returns"],
+            "text_class": "desc-text-left",
+            "image_class": "desc-image-right"
+          },
+          {
+            "heading": "studiomux",
+            "image_source": "./studiomux_landing2.png",
+            "list_items": ["Play instruments with grid or piano-style layouts, with scales, note repeat, aftertouch and velocity","Control device parameters, using faders or assignable X/Y pad modules","X/Y Pad: assign physics, make and morph snapshots","Navigate Live’s Browser, and drag and drop Devices and samples"],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          },
+          {
+            "heading": "modstep",
+            "image_source": "./modstep_landing2.png",
+            "list_items": ["Play instruments with grid or piano-style layouts, with scales, note repeat, aftertouch and velocity","Control device parameters, using faders or assignable X/Y pad modules","X/Y Pad: assign physics, make and morph snapshots","Navigate Live’s Browser, and drag and drop Devices and samples"],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          },
+          {
+            "heading": "soda",
+            "image_source": "./soda_landing.png",
+            "list_items": ["Play instruments with grid or piano-style layouts, with scales, note repeat, aftertouch and velocity","Control device parameters, using faders or assignable X/Y pad modules","X/Y Pad: assign physics, make and morph snapshots","Navigate Live’s Browser, and drag and drop Devices and samples"],
             "text_class": "desc-text-right",
             "image_class": "desc-image-left"
           }
         ]        
       }
+
     ]
   }

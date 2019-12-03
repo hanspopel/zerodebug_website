@@ -23,22 +23,6 @@ export default class Navibar extends React.Component{
 render() {
     let app_id = this.state.page_id
     let content;
-    
-    if (app_id == "touchAble") {
-        //content = <img src="https://zerodebug.com/images/ta_logo_2048.png" width="30"></img>
-    }
-        else if (app_id == "modstep") {
-        //content = <img src="./modstep_icon_web.png" width="30"></img>
-    }
-        else if (app_id == "soda") {
-        //content = <img src="./soda_icon_web.png" width="30"></img>
-    }
-       else if (app_id == "studiomux") {
-        //content = <img src="./studiomux_icon_web.png" width="30"></img>
-    }
-    else {
-        //content = <img src="./logo_zerodebug_white.png" width="30"></img>
-    }
 
 return (
 

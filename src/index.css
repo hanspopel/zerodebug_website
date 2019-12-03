@@ -22,7 +22,7 @@ code {
 }
 
 .main {
-    background: #2d2d2d;
+    /*background: #2d2d2d;*/
     border-color: #E7E7E7;
     color: #f1f1f1;
     padding-left: 0;
@@ -143,6 +143,54 @@ code {
 .bg-dark {
   background: #2d2d2d;
 }
+
+.ul_text_left {
+  text-align: left;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.classWithPad {
+    background: #2d2d2d;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.asdasd {
+    width: 100%;
+}
+
+.desc_box_sdsdf {
+  padding: 0px;
+  margin: 0px;
+}
+
+.product_row {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.product_row_box {
+  padding-top: 25px;
+  margin-top: 25px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+
 
 .flexy-header { height: 10vh; }
 .hero-content { transition: all 3s ease, opacity 0.5s ease; opacity: 1; }

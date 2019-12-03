@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css';
 import data from './ProductLandingPageData.json';
+import data2 from './Zerodebug_Productbox.json';
 
 export default class  ProductLandingPage extends React.Component{
 
@@ -20,9 +21,13 @@ export default class  ProductLandingPage extends React.Component{
         const data = this.state.data;
     
         const products = data.products;
+        const products2 = data2.products;
         var product;
         var store_list;
         var desc_container;
+        var first_container;
+        var second_container;
+        var zerodebug_productboxes;
 
         var add_id = "";
         for(var i=0; i < products.length; ++i) {
@@ -47,33 +52,31 @@ export default class  ProductLandingPage extends React.Component{
     <li class="list-group-item flex-fill"><a class="store-button btn btn-outline-secondary btn-block." href={store_item.url}><i class="fa fa-apple" aria-hidden="true"></i> {store_item.name}</a></li>
     ))
 
-    desc_container = product.desc_container.map(store_item => (
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-dark">
-        <div class={store_item.text_class}>
-            <h3 class="display-4 font-weight-normal">{store_item.heading}</h3>
-            <ul>
-            {store_item.list_items.map(list_item => (
-                    <li> {list_item} </li> 
-            ))}
-            </ul>
+        zerodebug_productboxes = products2.map(a_product => (
+        <div class="text-center col product_row_box" href={a_product.app_id}>
+        <a href="http://google.com">
+        <div class="classWithPad product_row_box">
+        <h4 class="product_row_box">
+        {a_product.app_id}
+        </h4>
+        <div>
+        {a_product.description}
         </div>
-        <div class={store_item.image_class}>
-            <img src="./touchable_landing.png" width="100%"></img>
+        <img src={a_product.icon_source} width="80px" class="product_row_box"></img>
         </div>
-    </div>
-     ))
+        </a>
+        </div>
+    ))
 
 
 
-        if (this.state.page_id == "touchAble") {
-        return (
-            <div class="main">
-            <div class="position-relative overflow-hidden p-md-5 text-center">
+    if (product.app_id != "zerodebug") {
+        first_container = ( <div class="position-relative overflow-hidden p-md-5 text-center">
                 <div class="container-main">
                     <img src={product.intro_field.image_source} width="100%"></img>
                     <div class="text-block-main">
                         <div class="text-block-main2">
-                            <img src="https://zerodebug.com/images/ta_logo_2048.png" width="50"></img>
+                            <img src={product.icon_source} width="50"></img>
                             <h1 class="display-4 display-44 font-weight-normal">{product.app_name_string}</h1>
                             <p class="lead font-weight-normal">{product.intro_field.intro_text}</p>
                             <div class="store-icon-list">
@@ -89,61 +92,70 @@ export default class  ProductLandingPage extends React.Component{
                         </div>
                     </div>
                 </div>
+            </div>)
+    }
+    else {
+        second_container = (
+            <div>
+            <h3>Our Products</h3>
+            <div class="row product_row">
+            {zerodebug_productboxes}
             </div>
-            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
+            </div>)
+    }
+
+    desc_container = product.desc_container.map((store_item,i) => {
+        var dark_mode = ""
+    if (i % 2 === 0) {
+          return (<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-dark desc_box_sdsdf">
+        <div class={store_item.text_class}>
+            <h3 class="display-4 font-weight-normal">{store_item.heading}</h3>
+            <ul class="ul_text_left">
+            {store_item.list_items.map(list_item => (
+                    <li> {list_item} </li> 
+            ))}
+            </ul>
+        </div>
+        <div class={store_item.image_class}>
+            <img src={store_item.image_source} width="100%"></img>
+        </div>
+    </div>);
+    }
+    else {return (<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 desc_box_sdsdf">
+        <div class={store_item.image_class}>
+            <img src={store_item.image_source} width="100%"></img>
+        </div>
+        <div class={store_item.text_class}>
+            <h3 class="display-4 font-weight-normal">{store_item.heading}</h3>
+            <ul class="ul_text_left">
+            {store_item.list_items.map(list_item => (
+                    <li> {list_item} </li> 
+            ))}
+            </ul>
+        </div>
+    </div>); 
+}
+    });
+
+
+        
+        return (
+            <div class="main">
+            {first_container}
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
                 <div>
-                    <h1 class="display-4 font-weight-normal">{product.intro_text.intro_heading}</h1>
+                    
+                
+                    <h1 class="display-4 font-weight-normal"><img src={product.intro_text.intro_icon} width="50px"></img>{product.intro_text.intro_heading}</h1>
                      <p class="justify">{product.intro_text.intro_text}</p>
                 </div>
             </div>
-            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3">
-                <p>&nbsp;</p>
-                <p></p>
-                <center>
-                    <div class="embed-container">
-                        <iframe width="1000" height="500"  src={product.intro_video.src_url} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-                    </div>
-                </center>
-            </div>
-            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-dark">
-                <div class="desc-text-left">
-                    <h3 class="display-4 font-weight-normal">full control</h3>
-                    <ul>
-                        <li>  Eight years ago touchAble </li> 
-                        <li>  Eight years ago touchAble  </li> 
-                        <li>  Eight years ago touchAble  </li> 
-                        <li>  Eight years ago touchAble  </li> 
-                        <li>   Eight years ago touchAble </li> 
-                    </ul>
-                </div>
-                <div class="desc-image-right">
-                    <img src="./touchable_landing.png" width="100%"></img>
-                </div>
-            </div>
-            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3">
-                <div class="desc-image-left">
-                    <img src="./touchable_landing.png" width="100%"></img>
-                </div>
-                <div class="desc-text-right">
-                    <h3 class="display-4 font-weight-normal">full control</h3>
-                    <ul>
-                        <li>  Eight years ago touchAble   </li> 
-                        <li>  Eight years ago touchAble  </li> 
-                        <li>  Eight years ago touchAble  </li> 
-                        <li>  Eight years ago touchAble  </li> 
-                        <li>   Eight years ago touchAble </li> 
-                    </ul>
-                </div>
-            </div>
+            {second_container}
+                    <div class="videoWrapper">
+    <iframe width="560" height="349" src={product.intro_video.src_url} frameborder="0" allowfullscreen></iframe>
+</div>
             {desc_container}
         </div>
             );
-        }
-        else {
-            return (
-            <div class="main">
-            </div>
-            );
-        }
 }
 }
