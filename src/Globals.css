@@ -1,0 +1,109 @@
+:root {
+    --main-bg-color: black;
+    --secodary-bg-color: black;
+    --navbar-bg-color: transparent;
+    /*--accent-bg-color: rgba(245,74,83);*/
+    --accent-bg-color: rgba(107, 112, 196);
+    --secondary-accent-bg-color: rgba(196, 140, 209);
+    --third-accent-bg-color: rgba(40, 160, 153);
+    --fourth-accent-bg-color: rgba(132, 153, 0);
+    --touchable-bg-color: rgba(245,74,83);
+    --small-margin: 25px;
+    --big-margin: 50px;
+  }
+
+  /*
+      trackColors->push_back(GLColorScale(GLColorMake(255*0.42, 255*0.44, 255*0.77, 1), 0.7));
+    trackColors->push_back(GLColorScale(GLColorMake(255*0.15, 255*0.55, 255*0.82, 1), 0.7));
+    trackColors->push_back(GLColorScale(GLColorMake(255*0.16, 255*0.63, 255*0.60, 1), 0.7));
+    trackColors->push_back(GLColorScale(GLColorMake(255*0.52, 255*0.60, 255*0.00, 1), 0.7));
+    trackColors->push_back(GLColorScale(GLColorMake(255*0.71, 255*0.54, 255*0.00, 1), 0.7));
+    trackColors->push_back(GLColorScale(GLColorMake(0.80, 0.29, 0.09, 1), 0.7));
+    trackColors->push_back(GLColorScale(GLColorMake(0.86, 0.20, 0.18, 1), 0.7));
+    trackColors->push_back(GLColorScale(GLColorMake(0.83, 0.21, 0.53, 1), 0.7));
+    */
+
+  .background_color_accent {
+    background-color: var(--accent-bg-color);
+  }
+
+  .background_color_accent_sec {
+    background-color: var(--secondary-accent-bg-color);
+  }
+
+  .background_color_accent_third {
+    background-color: var(--third-accent-bg-color);
+  }
+
+  .background_color_accent_fourth {
+    background-color: var(--fourth-accent-bg-color);
+  }
+
+
+  .uniform_small_margin {
+    margin: var(--small-margin);
+  }
+  
+  .uniform_big_margin {
+    margin: var(--big-margin);
+  }
+
+  .bottom_big_margin {
+    margin-bottom: var(--big-margin);
+  }
+
+  .top_big_margin {
+    margin-top: var(--big-margin);
+  }
+
+  .left_big_margin {
+    margin-left: var(--big-margin);
+  }
+
+
+  .bottom_small_margin {
+    margin-bottom: var(--small-margin);
+  }
+
+  .text_color_accent {
+    color: var(--accent-bg-color);
+  }
+
+  .text_color_black {
+    color: black;
+  }
+
+  .text_color_accent:hover {
+    color: var(--accent-bg-color);
+  }
+
+  .text_color_main:hover {
+    color: var(--main-bg-color);
+  }
+
+  .text_decoration {
+      text-decoration: underline;
+      text-decoration-color: var(--accent-bg-color);
+  }
+
+  .accent_bottom_border {
+    border-bottom: 1px solid var(--accent-bg-color);
+}
+
+.accent_right_border {
+  border-right: 1x solid var(--accent-bg-color);
+}
+
+.accent_left_border {
+  border-left: 1px solid var(--accent-bg-color);
+}
+
+.accent_top_border {
+    border-top: 1px solid var(--accent-bg-color);
+}
+
+
+.img_color_accent {
+        -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+        filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+  }

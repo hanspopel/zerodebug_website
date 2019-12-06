@@ -1,0 +1,20 @@
+{
+    "products":[
+{
+	"app_id": "touchAble",
+	"icon_source": "https://zerodebug.com/images/ta_logo_2048.png"
+},
+{
+	"app_id": "studiomux",
+	"icon_source": "https://zerodebug.com/images/ta_logo_2048.png"
+},
+{
+	"app_id": "modstep",
+	"icon_source": "https://zerodebug.com/images/ta_logo_2048.png"
+},
+{
+	"app_id": "soda",
+	"icon_source": "https://zerodebug.com/images/ta_logo_2048.png"
+}
+]
+}

@@ -1,0 +1,102 @@
+/* navbar */
+.fixed-top-2 {
+    height: 45px;
+    border-bottom: 0px solid black;
+}
+
+.bottom_border_class {
+  /*border-bottom: 1px solid var(--accent-bg-color);*/
+}
+
+
+/* navbar */
+.navbar-dark {
+    background-color: var(--navbar-bg-color);
+    /*border-color: var(--accent-bg-color);*/
+}
+/* navbar */
+.navbar-black {
+    transition: 1.1s ease-out;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Title */
+.navbar-dark .navbar-brand {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+    transition: 0.5s ease-out;
+    background-color: var(--accent-bg-color);
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+    color: var(--accent-bg-color);
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    color: black;
+    transition: 0.5s ease-out;
+    background-color: var(--accent-bg-color);
+    color: black;
+}
+
+.id-item > li > a:hover, .id-item > li > a:focus {
+    transition: 0.5s ease-out;
+    background-color: var(--accent-bg-color);
+    color: black;
+}
+
+.id-item > li > nav-link:hover , .id-item > li > nav-link:hover {
+    color: black;
+}
+
+.hover_color_red {
+}
+/* Link */
+.navbar-dark .navbar-nav > li > a {
+}
+.navbar-dark .navbar-nav > li > a:hover,
+.navbar-dark .navbar-nav > li > a:focus {
+
+}
+
+
+.navbar-dark .navbar-nav > .active > a,
+.navbar-dark .navbar-nav > .active > a:hover,
+.navbar-dark .navbar-nav > .active > a:focus {
+}
+.navbar-dark .navbar-nav > .open > a,
+.navbar-dark .navbar-nav > .open > a:hover,
+.navbar-dark .navbar-nav > .open > a:focus {
+    
+}
+/* Caret */
+.navbar-dark .navbar-nav > .dropdown > a .caret {
+
+}
+.navbar-dark .navbar-nav > .dropdown > a:hover .caret,
+.navbar-dark .navbar-nav > .dropdown > a:focus .caret {
+}
+.navbar-dark .navbar-nav > .open > a .caret,
+.navbar-dark .navbar-nav > .open > a:hover .caret,
+.navbar-dark .navbar-nav > .open > a:focus .caret {
+ 
+}
+/* Mobile version */
+.navbar-dark .navbar-toggle {
+}
+.navbar-dark .navbar-toggle:hover,
+.navbar-dark .navbar-toggle:focus {
+}
+.navbar-dark .navbar-toggle .icon-bar {
+}
+@media (max-width: 767px) {
+    .navbar-dark .navbar-nav .open .dropdown-menu > li > a {
+    }
+    .navbar-dark .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-dark .navbar-nav .open .dropdown-menu > li > a:focus {
+    }
+}

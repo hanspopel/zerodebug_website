@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+        "app_id": "touchAble",
+        "description": "mobile device Live Controller"
+      },
+      {
+        "icon_source": "./studiomux_icon_web.png",
+        "app_id": "studiomux",
+        "description": "audio and midi tranfer"
+      },
+            {
+        "icon_source": "./modstep_icon_web.png",
+        "app_id": "modstep",
+        "description": "iOS Sequencer"
+      },
+            {
+        "icon_source": "./soda_icon_web.png",
+        "app_id": "soda",
+        "description": "iOS DJ App"
+      }
+    ]
+  }

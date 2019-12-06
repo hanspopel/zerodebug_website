@@ -1,0 +1,70 @@
+:root {
+    --main-bg-color: black;
+    --secodary-bg-color: #2E2F2F;
+    --navbar-bg-color: black;
+    --accent-bg-color: rgba(245,74,83);
+    --touchable-bg-color: rgba(245,74,83);
+    --small-margin: 25px;
+    --big-margin: 50px;
+  }
+
+
+  .uniform_small_margin {
+    margin: var(--small-margin);
+  }
+  
+  .uniform_big_margin {
+    margin: var(--big-margin);
+  }
+
+  .bottom_big_margin {
+    margin-bottom: var(--big-margin);
+  }
+
+  .top_big_margin {
+    margin-top: var(--big-margin);
+  }
+
+
+  .bottom_small_margin {
+    margin-bottom: var(--small-margin);
+  }
+
+  .text_color_accent {
+    color: var(--accent-bg-color);
+  }
+
+  .text_color_accent:hover {
+    color: var(--accent-bg-color);
+  }
+
+  .text_color_main:hover {
+    color: var(--main-bg-color);
+  }
+
+  .text_decoration {
+      text-decoration: underline;
+      text-decoration-color: var(--accent-bg-color);
+  }
+
+  .accent_bottom_border {
+    border-bottom: 1px solid var(--accent-bg-color);
+}
+
+.accent_right_border {
+  border-right: 1x solid var(--accent-bg-color);
+}
+
+.accent_left_border {
+  border-left: 1px solid var(--accent-bg-color);
+}
+
+.accent_top_border {
+    border-top: 1px solid var(--accent-bg-color);
+}
+
+
+.img_color_accent {
+        -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+        filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+  }
