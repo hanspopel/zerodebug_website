@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bb8e5c373551717bfdc4a90a7d25b5e",
+    "revision": "c4ab66eff7c21b6cba94b400382ca846",
     "url": "/zerodebug_website/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zerodebug_website/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "127c9f44a3a67bf30e8a",
-    "url": "/zerodebug_website/static/css/main.09048e28.chunk.css"
+    "revision": "beb7087c65d5f0935886",
+    "url": "/zerodebug_website/static/css/main.c79fc137.chunk.css"
   },
   {
     "revision": "153a2421914c710b3dda",
     "url": "/zerodebug_website/static/js/2.e74d1602.chunk.js"
   },
   {
-    "revision": "127c9f44a3a67bf30e8a",
-    "url": "/zerodebug_website/static/js/main.8ca45925.chunk.js"
+    "revision": "beb7087c65d5f0935886",
+    "url": "/zerodebug_website/static/js/main.f2a83669.chunk.js"
   },
   {
     "revision": "7ef306f05faf54e57f1d",
