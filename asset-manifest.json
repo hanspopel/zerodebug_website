@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zerodebug_website/static/css/main.c79fc137.chunk.css",
+    "main.css": "/zerodebug_website/static/css/main.93c1c475.chunk.css",
     "main.js": "/zerodebug_website/static/js/main.f2a83669.chunk.js",
     "main.js.map": "/zerodebug_website/static/js/main.f2a83669.chunk.js.map",
     "runtime-main.js": "/zerodebug_website/static/js/runtime-main.978c3053.js",
@@ -9,16 +9,16 @@
     "static/js/2.e74d1602.chunk.js": "/zerodebug_website/static/js/2.e74d1602.chunk.js",
     "static/js/2.e74d1602.chunk.js.map": "/zerodebug_website/static/js/2.e74d1602.chunk.js.map",
     "index.html": "/zerodebug_website/index.html",
-    "precache-manifest.62e079aecaf946fc6db09e5402712ff7.js": "/zerodebug_website/precache-manifest.62e079aecaf946fc6db09e5402712ff7.js",
+    "precache-manifest.db53576426a3c771a611fedf7c0e5757.js": "/zerodebug_website/precache-manifest.db53576426a3c771a611fedf7c0e5757.js",
     "service-worker.js": "/zerodebug_website/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/zerodebug_website/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.c79fc137.chunk.css.map": "/zerodebug_website/static/css/main.c79fc137.chunk.css.map"
+    "static/css/main.93c1c475.chunk.css.map": "/zerodebug_website/static/css/main.93c1c475.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.978c3053.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.e74d1602.chunk.js",
-    "static/css/main.c79fc137.chunk.css",
+    "static/css/main.93c1c475.chunk.css",
     "static/js/main.f2a83669.chunk.js"
   ]
 }
