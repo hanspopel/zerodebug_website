@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/zerodebug_website_new/static/css/main.f566a2fb.chunk.css",
-    "main.js": "/zerodebug_website_new/static/js/main.888d53c5.chunk.js",
-    "main.js.map": "/zerodebug_website_new/static/js/main.888d53c5.chunk.js.map",
-    "runtime-main.js": "/zerodebug_website_new/static/js/runtime-main.fc6e53a9.js",
-    "runtime-main.js.map": "/zerodebug_website_new/static/js/runtime-main.fc6e53a9.js.map",
-    "static/css/2.b0bb7f2c.chunk.css": "/zerodebug_website_new/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.e74d1602.chunk.js": "/zerodebug_website_new/static/js/2.e74d1602.chunk.js",
-    "static/js/2.e74d1602.chunk.js.map": "/zerodebug_website_new/static/js/2.e74d1602.chunk.js.map",
-    "index.html": "/zerodebug_website_new/index.html",
-    "precache-manifest.e3bb71c2b209d2bf8f85ba1c1203f39c.js": "/zerodebug_website_new/precache-manifest.e3bb71c2b209d2bf8f85ba1c1203f39c.js",
-    "service-worker.js": "/zerodebug_website_new/service-worker.js",
-    "static/css/2.b0bb7f2c.chunk.css.map": "/zerodebug_website_new/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.f566a2fb.chunk.css.map": "/zerodebug_website_new/static/css/main.f566a2fb.chunk.css.map"
+    "main.css": "/zerodebug_website/static/css/main.09048e28.chunk.css",
+    "main.js": "/zerodebug_website/static/js/main.8ca45925.chunk.js",
+    "main.js.map": "/zerodebug_website/static/js/main.8ca45925.chunk.js.map",
+    "runtime-main.js": "/zerodebug_website/static/js/runtime-main.978c3053.js",
+    "runtime-main.js.map": "/zerodebug_website/static/js/runtime-main.978c3053.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/zerodebug_website/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.e74d1602.chunk.js": "/zerodebug_website/static/js/2.e74d1602.chunk.js",
+    "static/js/2.e74d1602.chunk.js.map": "/zerodebug_website/static/js/2.e74d1602.chunk.js.map",
+    "index.html": "/zerodebug_website/index.html",
+    "precache-manifest.e9b6947f78b44f81ef455c27775f99be.js": "/zerodebug_website/precache-manifest.e9b6947f78b44f81ef455c27775f99be.js",
+    "service-worker.js": "/zerodebug_website/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/zerodebug_website/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.09048e28.chunk.css.map": "/zerodebug_website/static/css/main.09048e28.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc6e53a9.js",
+    "static/js/runtime-main.978c3053.js",
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.e74d1602.chunk.js",
-    "static/css/main.f566a2fb.chunk.css",
-    "static/js/main.888d53c5.chunk.js"
+    "static/css/main.09048e28.chunk.css",
+    "static/js/main.8ca45925.chunk.js"
   ]
 }
