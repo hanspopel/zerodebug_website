@@ -11,7 +11,7 @@ export default class ManualPage extends React.Component {
 
     render() {
         return (
-            <div class="main">
+            <div class="main" style={{marginTop:"56px"}}>
                 <embed src="https://zerodebug.com/touchable/touchAbleProManual.pdf" width="100%" height="3000px" type="application/pdf"></embed>
             </div>
         );

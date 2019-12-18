@@ -5,7 +5,10 @@
 }
 
 .bottom_border_class {
-  /*border-bottom: 1px solid var(--accent-bg-color);*/
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  /*z-index: 8888;
+  top: 50px;
+  margin-top: -50px;*/
 }
 
 
@@ -16,8 +19,13 @@
 }
 /* navbar */
 .navbar-black {
+    /*transition: 1.1s ease-out;*/
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* navbar */
+.navbar-transparent {
     transition: 1.1s ease-out;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
 }
 /* Title */
 .navbar-dark .navbar-brand {
@@ -28,7 +36,7 @@
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
     transition: 0.5s ease-out;
-    background-color: var(--accent-bg-color);
+    /*background-color: var(--accent-bg-color);*/
 }
 
 .navbar-dark .nav-link:hover,
@@ -39,7 +47,7 @@
 .nav > li > a:hover, .nav > li > a:focus {
     color: black;
     transition: 0.5s ease-out;
-    background-color: var(--accent-bg-color);
+    /*background-color: var(--accent-bg-color);*/
     color: black;
 }
 
@@ -48,6 +56,8 @@
     background-color: var(--accent-bg-color);
     color: black;
 }
+
+
 
 .id-item > li > nav-link:hover , .id-item > li > nav-link:hover {
     color: black;
@@ -99,4 +109,81 @@
     .navbar-dark .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-dark .navbar-nav .open .dropdown-menu > li > a:focus {
     }
+}
+
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+  }
+  
+  .navbar-fixed-left .navbar-nav > li {
+    float: none;  /* Cancel default li float: left */
+    width: 139px;
+  }
+  
+  .navbar-fixed-left + .container {
+    padding-left: 160px;
+  }
+  
+  /* On using dropdown menu (To right shift popuped) */
+  .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+    margin-top: -50px;
+    margin-left: 140px;
+  }
+
+
+  /* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  right: 250px;
+  width: 200px;
+  margin-right: -250px;
+  overflow-y: auto;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  transform: rotate(90deg);
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav{
+  
+}
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
 }

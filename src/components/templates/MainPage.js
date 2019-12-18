@@ -30,14 +30,14 @@ export default class MainPage extends React.Component {
     content = <ProductPage page_id={page_id} submenu_id={submenu_id} />
     let margin_type;
     let opacity;
-    if (page_id === "zerodebug") {
+    if (page_id !== "zerodebug") {
       //margin_type = "main_bar_margin"
     }
     else {
       let lastScrollY = window.scrollY;
       opacity = lastScrollY;
       if (lastScrollY > 56) {
-        //margin_type = "sub_bar_margin"
+        margin_type = "sub_bar_margin"
       }
       else {
         //margin_type = "sub_bar_margin";
@@ -67,7 +67,7 @@ export default class MainPage extends React.Component {
         <div>
           <div>
             <div>
-              <Navibar selectProductPage={selectProductPage} page_id={page_id} opacity={opacity}/>
+              <Navibar selectProductPage={selectProductPage} page_id={page_id} submenu_id={submenu_id} opacity={opacity}/>
             </div>
           </div>
           {content}

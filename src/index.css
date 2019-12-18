@@ -6,15 +6,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1c1c1c;
+  background: black;
+  font-style: normal; font-variant: normal; font-weight: 280; 
+  font-size: 1.2em !important;
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2,.display-3,.display-4  {
+  margin-bottom: 0.5rem;
+  font-family: "Helvetica Neue";
+  font-weight: 150;
+  line-height: 1.2;
+  color: inherit;
+}
+   
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
+/*
+h1 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; } 
+h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 15.4px; } 
+p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; ; font-style: normal; font-variant: normal; font-weight: 100; line-height: 20px; } 
+blockquote { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: 100; line-height: 25px; } 
+pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: 100; line-height: 18.5714px; }
+a { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: 100; line-height: 18.5714px; }
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: 100; line-height: 18.5714px; }
+*/
 
 .main {
     /*background: #2d2d2d;*/
@@ -26,6 +45,8 @@ code {
     margin: 0 0 0 0;
     right: 0px;
     left: 0px;
+    top: 0;
+    background: black;
 }
 
 /* Container holding the image and the text */
@@ -46,9 +67,11 @@ code {
   background-color: black;
   opacity: 1;
   color: white;
-  background:linear-gradient(to right,rgba(0, 0, 0, 1) ,rgba(0, 0, 0, 0.5) 20%);
-  background-color:transparent /*this your primary color*/
+  background:linear-gradient(to bottom,rgba(0, 0, 0, 1) ,rgba(0, 0, 0, 0.5) 30%);
+  background-color:transparent; /*this your primary color*/
 }
+
+
 
 
 /* Bottom right text */
@@ -58,18 +81,24 @@ code {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  background-color: rgba(0, 0, 0, 0);;
+  background-color: rgba(0, 0, 0, 0);
   opacity: 1;
   color: white;
   text-align: middle;
   vertical-align: middle;
 }
 
-.text-block-main2 {
-  position: relative;
-  top: 50px;
+.text-block-main-bottom {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
   opacity: 1;
   color: white;
+  text-align: middle;
+  vertical-align: middle;
 }
 
 .display-44 {
@@ -89,23 +118,24 @@ code {
 }
 
 .desc-text-left {
+    /*height: 100%;*/
     width: 30%;
-    height: 100%;
-    text-align: center;
+    text-align: left;
     float: left;
 }
 
 
 .desc-image-right {
-    width: 70%;
-    height: 100%;
-    text-align: right;
-    float: left;
+  /*height: 100%;*/
+   width: 70%;
+    /*text-align: right;
+    float: left;*/
+    opacity: 0.9;
     transition: .5s ease;
 }
 
 .desc-image-right:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .desc-image-left {
@@ -114,18 +144,18 @@ code {
     text-align: left;
     float: left;
     overflow: hidden;
+    opacity: 0.9;
     transition: .5s ease;
 }
 
 .desc-image-left:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 
 .desc-text-right {
     width: 30%;
     height: 100%;
-    text-align: center;
     float: left;
 }
 
@@ -179,27 +209,58 @@ code {
 
 
 .product_row {
-    /*margin-bottom: 15px;
-    margin-top: 15px;*/
+    background-color: #C0C0C0;
 }
 
 .product_row_box {
-  padding-top: 55px;
-  padding-bottom: 55px;
-  /*margin-top: 25px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 25px;*/
   vertical-align: middle;
   text-decoration: none;
   background-color: var(--secodary-bg-color);
   color: white;
+  box-shadow: -2px -2px 5px 4px #B0B0B0
 }
 
-.product_row_box:hover {
+.product_detail_box{
   transition: 1s ease-out;
-  background-color: var(--accent-bg-color);
-  transform: scale(1.15);
+  /*background-color: var(--accent-bg-color);*/
+}
+
+.product_detail_box:hover{
+  transition: 1s ease-out;
+  background-color: white;
+  transform: scale(1.005);
+}
+
+.image_bottom {
+  /*position: absolute;
+  bottom: 0px;
+  width: 100;
+  text-align: center;
+  width: 100%;
+  background-color: var(--secondary-accent-bg-color);*/
+  vertical-align:middle;
+}
+
+.product_row_box:hover{
+  transition: 1s ease-out;
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.product_row_box{
+  transition: 1s ease-out;
+  transform: scale(1);
+}
+
+
+.inner-product-box:hover {
+  transition: 1s ease-out;
+  /*transform: scale(1.15);*/
+}
+
+.inner-product-box {
+  transition: 1s ease-out;
+  transform: scale(1);
 }
 
 .product_row_box:hover a h4{
@@ -306,4 +367,155 @@ a:hover {
   top: 0px;
   left: 0px;
   background-color: #ff0000;
+}
+
+ 
+.divdiv {
+}
+ 
+.ulul {
+  list-style-type: none;
+  box-sizing: border-box;
+  height: 100%;
+}
+ 
+.h3h3 {
+  /*font: bold 20px/1.5 Helvetica, Verdana, sans-serif;*/
+}
+ 
+.lili .imgimg {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+.lili .pp {
+  /*font: 200 12px/1.5 Georgia, Times New Roman, serif;*/
+}
+ 
+.lili {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+.lili:hover {
+  background: var(--accent-bg-color);
+  cursor: pointer;
+}
+
+asider {
+  display: block;
+  position: relative;
+}
+
+asider h2 {
+  letter-spacing: 2px;
+  background: white;
+  color: black;
+  line-height: 70px;
+  padding-left: 20px;
+  text-align: right;
+}
+
+/* Class name via Modernizr */
+.csstransforms .asider {
+  border-right: 70px solid white;
+}
+.csstransforms .asider h2 {
+  /* Abs positioning makes it not take up vert space */
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /* Border is the new background */
+  background: none;
+
+  /* Rotate from top left corner (not default) */
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+
+.rotated-text {
+  text-align: right;
+  position: relative;
+  transform-origin: left bottom;
+  transform: rotate(90deg);
+}
+
+aside {
+  display: block;
+  position: relative;
+}
+
+aside h2 {
+  letter-spacing: 2px;
+  background: white;
+  color: black;
+  line-height: 70px;
+  padding-left: 10px;
+
+}
+
+/* Class name via Modernizr */
+.csstransforms aside {
+  /*border-left: 70px solid white;*/
+}
+.csstransforms aside h2 {
+  /* Abs positioning makes it not take up vert space */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* Border is the new background */
+  background: none;
+
+  /* Rotate from top left corner (not default) */
+  transform-origin: 0 0;
+  /*transform: rotate(90deg);*/
+}
+
+.rotate {
+
+  transform: rotate(-90deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.big-box,
+.mini-box {
+    background-color: #10BCFF;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    font-size: 1.5em;
+    position:fixed;bottom:0;left:0;    
+            background:lightgray;width:100%
+}
+.big-box {
+    height: 65px;
+    line-height: 65px;
+    position:fixed;bottom:0;left:0;    
+            background:lightgray;width:100%
+}
+.mini-box {
+    height: 30px;
+    line-height: 30px;
+    position:fixed;bottom:0;left:0;    
+            background:lightgray;width:100%
 }

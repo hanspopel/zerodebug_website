@@ -24,6 +24,7 @@ export default class SubNavbar extends React.Component {
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll, true);
         this.nav.current.classList.add('ref={this.nav}');
+        //this.nav.current.classList.add('fixed-bottom');
     }
 
     componentWillUnmount() {
@@ -36,15 +37,42 @@ export default class SubNavbar extends React.Component {
         if (!this.nav.current) {
             return;
         }
+        if (lastScrollY == 0) {
+            //this.nav.current.classList.add('fixed-bottom');
+            //this.nav.current.style.bottom = 0;
+            //this.nav.current.classList.add('navbar-transparent');
+
+        }
+        else {
+            //this.nav.current.classList.remove('fixed-bottom');
+            //this.nav.current.classList.add('navbar-black');
+
+            if (lastScrollY < window.innerHeight - 45) {
+                //this.nav.current.style.bottom = "" + lastScrollY +"px";
+                //this.nav.current.classList.add('fixed-bottom');
+                //this.nav.current.classList.remove('fixed-top');
+            }
+            else {
+                //this.nav.current.classList.remove('fixed-bottom');
+                //this.nav.current.classList.add('fixed-top');
+            }
+        }
         if (lastScrollY > 56) {
             this.nav.current.classList.add('fixed-top');
-            this.nav.current.classList.add('bottom_border_class');
+            this.nav.current.classList.add('navbar-black');
+
+            //this.nav.current.classList.add('bottom_border_class');
             this.nav.current.classList.add('bottom_big_margin');
+            //this.nav.current.classList.add('bottom_big_margin');
+            //this.nav.current.classList.add('navbar-black');
         }
         else {
             this.nav.current.classList.remove('fixed-top');
-            this.nav.current.classList.remove('bottom_border_class');
+            this.nav.current.classList.remove('navbar-black');
+
+            //this.nav.current.classList.remove('bottom_border_class');
             this.nav.current.classList.remove('bottom_big_margin');
+            //this.nav.current.classList.add('bottom_big_margin');
         }
     };
 
@@ -77,7 +105,7 @@ export default class SubNavbar extends React.Component {
 
         let icon_source = "https://zerodebug.com/images/ta_logo_2048.png";
         let icon_content;
-        icon_content = <img src={product.icon_source} width="30"></img>
+        icon_content = <img src={product.icon_source} height="30px"></img>
         let content;
 
 
@@ -85,16 +113,20 @@ export default class SubNavbar extends React.Component {
         content = product.submenus.map(menu => {
             if (this.state.submenu_id === menu.submenu_id) {
                 return (
+                    <div class="id-item">
                     <li class="nav-item active">
                         <a class="nav-link" onClick={submenu_id = menu.id, this.props.selectSubPage.bind(this, submenu_id)} href="#">{menu.name}</a>
                     </li>
+                    </div>
                 )
             }
             else {
                 return (
+                    <div class="id-item">
                     <li class="nav-item">
                         <a class="nav-link" onClick={submenu_id = menu.id, this.props.selectSubPage.bind(this, submenu_id)} href="#">{menu.name}</a>
                     </li>
+                    </div>
                 )
             }
 
@@ -103,22 +135,25 @@ export default class SubNavbar extends React.Component {
         let social_media_list;
 
         this.state.social_media_content = product.social_media.map(social_item => (
+            <div class="id-item">
             <li class="nav-item">
-                <a class="nav-link" href={social_item.url} title={social_item.title} target="_blank"><i class={social_item.fa} aria-hidden="true"></i></a>
+                <a class="nav-link" href={social_item.url} title={social_item.title} target="blank"><i class={social_item.fa} aria-hidden="true"></i></a>
             </li>
+            </div>
         ))
 
 
         return (
-            <ul class="navbar-nav w-100 justify-content-start" >
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            <ul class="navbar-nav w-100 justify-content-start" id="collapsingNavbar3">
                 <li class="nav-item">
                     <a class="navbar-brand" href="#" onClick={submenu_id = "landing_page", this.props.selectSubPage.bind(this, submenu_id)}>
                         {icon_content}
                     </a>
                 </li>
                 {content}
-                {social_media_list}
             </ul>
+            </div>
         )
     }
 
@@ -131,7 +166,7 @@ export default class SubNavbar extends React.Component {
 
         
         return (
-            <nav class="navbar fixed-top-2 navbar-dark navbar-expand-md bg-faded justify-content-center" ref={this.nav}>
+            <nav class="navbar fixed-top-2 navbar-dark navbar-expand-md bg-faded" ref={this.nav}>
                 {submenus}
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
                     <span class="navbar-toggler-icon"></span>

@@ -7,7 +7,8 @@ import SubNavbar from './SubNavbar'
 import PageFooter from './PageFooter'
 import ProductLandingPage from './ProductLandingPage'
 import ManualPage from './ManualPage'
-import InstallPage from './InstallPage'
+import TouchableMacInstallPage from './TouchableMacInstallPage'
+import TouchableWinInstallPage from './TouchableWinInstallPage'
 
 
 export default class PatientTable extends React.Component {
@@ -15,10 +16,37 @@ export default class PatientTable extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { reload: true, page_id: props.page_id, submenu_id: "landing_page" };
+    this.state = { reload: true, page_id: props.page_id, submenu_id: props.submenu_id };
     this.selectSubPage = this.selectSubPage.bind(this);
   }
 
+  nav = React.createRef();
+
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll, true);
+    this.nav.current.classList.add('ref={this.nav}');
+    //this.nav.current.classList.add('fixed-bottom');
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+    this.nav.current.classList.remove('ref={this.nav}');
+  }
+
+  handleScroll = () => {
+    let lastScrollY = window.scrollY;
+    if (!this.nav.current) {
+      return;
+    }
+    if (lastScrollY > 56 && this.state.page_id !== "zerodebug") {
+      this.nav.current.style.marginTop = 56 + "px";
+    }
+    else {
+      this.nav.current.style.marginTop = 0 + "px";
+
+    }
+  }
 
   selectSubPage(submenu_id) {
     this.setState({ submenu_id: submenu_id, page_id: this.state.page_id });
@@ -28,7 +56,7 @@ export default class PatientTable extends React.Component {
   createNavbar() {
     let selectSubPage = this.selectSubPage;
     let page_id = this.state.page_id;
-    if (page_id != "zerodebug") {
+    if (page_id !== "zerodebug") {
       return (
         <div>
           <SubNavbar page_id={page_id} selectSubPage={selectSubPage} />
@@ -57,24 +85,33 @@ export default class PatientTable extends React.Component {
       content = <ManualPage page_id={page_id} submenu_id={submenu_id} />
     }
     else if (submenu_id === "setup-mac") {
-      content = <InstallPage page_id={page_id} submenu_id={submenu_id} />
+      content = <TouchableMacInstallPage page_id={page_id} submenu_id={submenu_id} />
     }
     else if (submenu_id === "setup-win") {
-      content = <InstallPage page_id={page_id} submenu_id={submenu_id} />
+      content = <TouchableWinInstallPage page_id={page_id} submenu_id={submenu_id} />
     }
     else {
       content = <div class="main"></div>
     }
 
     return (
-      content
+      <div ref={this.nav}>
+        {content}
+      </div>
     )
 
   }
   createFooter(props) {
+    if (this.state.submenu_id === "landing_page") {
+      return (
+        <PageFooter />
+      )
+    }
     return (
-      <PageFooter />
+      <div>
+      </div>
     )
+ 
   }
 
 

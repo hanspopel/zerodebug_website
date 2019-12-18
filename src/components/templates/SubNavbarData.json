@@ -3,26 +3,21 @@
       {
         "submenus": [
           {
-            "name": "manual",
+            "name": "Manual",
             "id": "manual"
           },
           {
-            "name": "windows",
+            "name": "Win",
             "id": "setup-win"
           },
           {
-            "name": "mac",
+            "name": "OSX",
             "id": "setup-mac"
           },
           {
-            "name": "faq",
+            "name": "FAQ",
             "id": "faq"
-          },
-          {
-            "name": "touchAble3",
-            "id": "touchAble3"
           }
-          
         ],
         "social_media": [
             {
