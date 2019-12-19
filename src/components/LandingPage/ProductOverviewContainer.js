@@ -1,4 +1,6 @@
 import React from 'react'
+import { styles } from '../Styles.js'
+import DefaultPage from '../DefaultPage'
 
 export default class ProductOverviewContainer extends React.Component {
 
@@ -7,6 +9,7 @@ export default class ProductOverviewContainer extends React.Component {
         this.state = {
             product: props.product,
         };
+        this.styles = styles;
     }
 
 
@@ -14,32 +17,13 @@ export default class ProductOverviewContainer extends React.Component {
 
         if (!this.state.product) {
             return (
-                <ul class="navbar-nav w-100 justify-content-start">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://www.zerodebug.com">no page found</a>
-                    </li>
-                </ul>
+                <DefaultPage />
             );
         }
 
-
-
         let zerodebug_productboxes = this.state.product.overview_container.map((a_product, i) => {
-            let class_def = "text-center col-sm product_row_box";
-            if (i === 0) {
-                class_def = "align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3 background_color_accent";
-            }
-            else if (i === 1) {
-                class_def = "align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3 background_color_accent_sec";
-            }
-            else if (i === 2) {
-                class_def = "align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3 background_color_accent_third";
-            }
-            else if (i === 3) {
-                class_def = "align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3 background_color_accent_fourth";
-            }
             return (
-                <div class={class_def} >
+                <div class="align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3" styles={this.styles.backgrounds[i%8]}>
                     <a href={a_product.heading}>
                         <div class="row inner-product-box">
                             <div class="col-8 col-sm-12">
@@ -69,8 +53,7 @@ export default class ProductOverviewContainer extends React.Component {
                 </div>
             </div>
         )
-
-
+        
         return (
             <div class="align-items-center" style={{ backgroundColor: "#C0C0C0", color: "black" }}>
                 {second_container}
