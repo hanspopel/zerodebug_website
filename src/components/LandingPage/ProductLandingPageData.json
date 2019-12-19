@@ -1,0 +1,609 @@
+{
+    "products": [
+      {
+        "icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+        "app_id": "touchAble",
+        "app_name_string": "touchAble Pro",
+        "year": 2018,
+        "intro_field": {
+          "image_source": "./touchable_landing.png",
+          "intro_text": "total control over Ableton Live with your mobile devices",
+          "sub_intro_text": "",
+          "app_store": [
+            {
+              "id": "ios app_store",
+              "name": "iOS",
+              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8"
+            },
+            {
+              "id": "android app_store",
+              "name": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.zerodebug.touchablepro"
+            },
+            {
+              "id": "windows app_store",
+              "name": "Windows",
+              "url": "https://www.microsoft.com/store/apps/9P41L3H6M11K"
+            }
+          ]
+        },
+        "overview_container": [
+          {
+            "heading": "ultra low latency",
+            "icon_source": "./connection_usbwifi.png",
+            "app_id": "touchAble",
+            "description": "wired and wireless connection"
+          },
+          {
+            "heading": "fully customizable",
+            "icon_source": "./edit_icon.png",
+            "app_id": "studiomux",
+            "description": "extensive editor and view arragment"
+          },
+          {
+            "heading": "total control",
+            "icon_source": "./api_icon.png",
+            "app_id": "modstep",
+            "description": "the most complete controller"
+          },
+          {
+            "heading": "mutli device support",
+            "icon_source": "./multi_platform.png",
+            "app_id": "soda",
+            "description": "all touch devices & all platforms"
+          }
+        ], 
+        "intro_text": {
+          "intro_heading": "Features",
+          "intro_text": "everything you need directly at your fingertips"
+        },
+        "intro_video": {
+          "src_url": "https://www.youtube.com/embed/R4_GRVPbDn8?rel=0&controls=0&autohid=1&showinfo=0"
+        },
+        "desc_container": [
+          {
+            "heading": "Main Features",
+            "image_source": "./P9860094.jpeg",
+            "list_items": [
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiview",
+                "description": "change between split of fullscreen",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "USB & Wifi",
+                "description": "works wired (ios) and on wifi",
+                "icon_source": "./connection_usbwifi.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Maximum Control",
+                "description": "full API support",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "Editable",
+                "description": "Editor for Devices and full API",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              }
+            ]
+          },
+          {
+            "heading": "5 Powerfull Modules",
+            "image_source": "./studiomux_landing2.png",
+            "list_items": [
+              {
+                "heading": "Session View",
+                "description": "start adn edit scenes and clips",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Mixer view",
+                "description": "control all mixer related parameters",
+                "icon_source": "./multiview_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "XY Pad",
+                "description": "Control your set with an freely assingable xy pad",
+                "icon_source": "./connection_usbwifi.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Keys Module",
+                "description": "Play your synth with 3 different Key types",
+                "icon_source": "./api_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "Editor Module",
+                "description": "Create your own template to conrol your live set",
+                "icon_source": "./api_icon.png",
+                "image_source": "./touchable_landing.png"
+              }
+            ]
+          },
+          {
+            "heading": "Core Features",
+            "image_source": "./soda_landing.png",
+            "list_items": [
+              {
+                "heading": "Devices templates",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Device Template Edior",
+                "description": "change between split of fullscreen",
+                "icon_source": "./multiview_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "Audio Clip Editor",
+                "description": "change between split of fullscreen",
+                "icon_source": "./multiview_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "Piano Roll",
+                "description": "full API support",
+                "icon_source": "./api_icon.png",
+                "image_source": "./touchable_landing.png"
+              }
+            ]
+          }
+        ]        
+      },
+      {
+        "icon_source": "./studiomux_icon_web.png",
+        "app_id": "studiomux",
+        "app_name_string": "touchAble Pro",
+        "year": 2018,
+        "intro_field": {
+          "image_source": "./studiomux_landing.png",
+          "intro_text": "total control over Ableton Live with your mobile devices",
+          "sub_intro_text": "total control over Ableton Live with your mobile devices",
+          "app_store": [
+            {
+              "id": "ios app_store",
+              "name": "iOS",
+              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8"
+            },
+            {
+              "id": "android app_store",
+              "name": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.zerodebug.touchablepro"
+            },
+            {
+              "id": "windows app_store",
+              "name": "Windows",
+              "url": "https://www.microsoft.com/store/apps/9P41L3H6M11K"
+            }
+          ]
+        },
+        "overview_container": [
+          {
+            "heading": "ultra low latency",
+            "icon_source": "./connection_usbwifi.png",
+            "app_id": "touchAble",
+            "description": "wired and wireless connection"
+          },
+          {
+            "heading": "fully customizable",
+            "icon_source": "./edit_icon.png",
+            "app_id": "studiomux",
+            "description": "extensive editor and view arragment"
+          },
+          {
+            "heading": "total control",
+            "icon_source": "./modstep_icon_web.png",
+            "app_id": "modstep",
+            "description": "the most complete controller"
+          },
+          {
+            "heading": "mutli device support",
+            "icon_source": "./soda_icon_web.png",
+            "app_id": "soda",
+            "description": "all touch devices"
+          }
+        ], 
+        "intro_text": {
+          "intro_heading": "everything you need directly at your fingertips",
+          "intro_text": "Eight years ago touchAble defined what a touch controller app for Live could do. touchAble Pro has been reimagined and recoded from the ground up, incorporating years of feedback from musicians at every level. touchAble Pro provides a cleaner interface, allows much more powerful customization and gives you the deepest access possible to Ableton Live. From waveform views to editors to automations - with touchAble Pro, you now have the complete Ableton Live experience literally at your fingertips. You can perform and edit without ever touching a mouse, you can customize your experience to access exactly the controls you need to edit or play. You’ll gain complete control that’s as portable as the smartphone, tablet or laptop you’re carrying with you."
+        },
+        "intro_video": {
+          "src_url": "https://www.youtube.com/embed/H6EnpjfztNw?rel=0"
+        },
+        "desc_container": [
+          {
+            "heading": "full control",
+            "image_source": "./touchable_landing.png",
+            "list_items": ["Control the transport, metronome, cues, and quantization","Trigger clips and scenes and control looping","Arm, mute, and solo tracks","Adjust monitoring","Mix, pan, crossfade, and control sends and returns"],
+            "text_class": "desc-text-left",
+            "image_class": "desc-image-right"
+          },
+          {
+            "heading": "full control",
+            "image_source": "./touchable_landing.png",
+            "list_items": ["Play instruments with grid or piano-style layouts, with scales, note repeat, aftertouch and velocity","Control device parameters, using faders or assignable X/Y pad modules","X/Y Pad: assign physics, make and morph snapshots","Navigate Live’s Browser, and drag and drop Devices and samples"],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          }
+        ]        
+      },
+      {
+        "icon_source": "./logo_zerodebug_white.png",
+        "app_id": "zerodebug",
+        "app_name_string": "zerodebug",
+        "year": 2018,
+        "intro_field": {
+          "image_source": "./touchable_landing.png",
+          "intro_text": "We are a Berlin based company working on our passion to make music touchable",
+          "sub_intro_text": "",
+          "app_store": [
+          ]
+        },
+        "overview_container": [
+          {
+            "heading": "touchAble",
+            "icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+            "app_id": "touchAble",
+            "description": "mobile device Live Controller"
+          },
+          {
+            "heading": "studiomux",
+            "icon_source": "./studiomux_icon_web.png",
+            "app_id": "studiomux",
+            "description": "audio and midi tranfer"
+          },
+          {
+            "heading": "modstep",
+            "icon_source": "./modstep_icon_web.png",
+            "app_id": "modstep",
+            "description": "iOS Sequencer"
+          },
+          {
+            "heading": "soda",
+            "icon_source": "./soda_icon_web.png",
+            "app_id": "soda",
+            "description": "iOS DJ App"
+          }
+        ],  
+        "intro_text": {
+          "intro_icon" : "./logo_zerodebug_white.png",
+          "intro_heading": "Our Apps",
+          "intro_text": "We are a Berlin based company working on our passion to make music touchable"
+        },
+        "intro_video": {
+          "src_url": "https://www.youtube.com/embed/R4_GRVPbDn8?rel=0&controls=0&autohid=1&showinfo=0"
+        },
+        "desc_container": [
+          {
+            "heading": "touchAble",
+            "image_source": "./P9860094.jpeg",
+            "list_items": [
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multi Device",
+                "description": "Editor for Devices and full API",
+                "icon_source": "./multi_device.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiview",
+                "description": "change between split of fullscreen",
+                "icon_source": "./multiview_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "USB & Wifi",
+                "description": "works wired (ios) and on wifi",
+                "icon_source": "./connection_usbwifi.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Maximum Control",
+                "description": "full API support",
+                "icon_source": "./api_icon.png",
+                "image_source": "./touchable_landing.png"
+              }
+            ],
+            "text_class": "desc-text-left",
+            "image_class": "desc-image-right"
+          },
+          {
+            "heading": "studiomux",
+            "image_source": "./studiomux_landing2.png",
+            "list_items": [
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              }
+            ],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          },
+          {
+            "heading": "modstep",
+            "image_source": "./modstep_landing2.png",
+            "list_items": [
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              }
+            ],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          },
+          {
+            "heading": "soda",
+            "image_source": "./soda_landing.png",
+            "list_items": [
+              {
+                "heading": "Multiplatform",
+                "description": "works on all platforms",
+                "icon_source": "./multi_platform.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Multiview",
+                "description": "change between split of fullscreen",
+                "icon_source": "./multiview_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "USB & Wifi",
+                "description": "works wired (ios) and on wifi",
+                "icon_source": "./connection_usbwifi.png",
+                "image_source": "./P9860094.jpeg"
+              },
+              {
+                "heading": "Maximum Control",
+                "description": "full API support",
+                "icon_source": "./api_icon.png",
+                "image_source": "./touchable_landing.png"
+              }
+            ],
+            "text_class": "desc-text-right",
+            "image_class": "desc-image-left"
+          }
+        ]        
+      },
+      {
+        "icon_source": "./soda_icon_web.png",
+        "app_id": "soda",
+        "app_name_string": "soda",
+        "year": 2018,
+        "intro_field": {
+          "image_source": "https://zerodebug.com/images/soda_layout.png",
+          "intro_text": "soda is here to refresh the way you DJ",
+          "sub_intro_text": "soda introduces a customizable user interface that lets you focus only on the features you need.",
+          "app_store": [
+            {
+              "id": "ios app_store",
+              "name": "iOS",
+              "url": "https://itunes.apple.com/us/app/soda-dj-app/id1118842181?ls=1&mt=8"
+            }
+          ]
+        },
+        "overview_container": [
+          {
+            "heading": "Decks",
+            "icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+            "app_id": "soda",
+            "description": "up to 8 decks"
+          },
+          {
+            "heading": "Effects",
+            "icon_source": "./studiomux_icon_web.png",
+            "app_id": "soda",
+            "description": "5 internal decks & IAA"
+          },
+          {
+            "heading": "MIDI",
+            "icon_source": "./modstep_icon_web.png",
+            "app_id": "soda",
+            "description": "completely midi assignable"
+          },
+          {
+            "heading": "Editor",
+            "icon_source": "./soda_icon_web.png",
+            "app_id": "soda",
+            "description": "completely free editable layout"
+          }
+        ],  
+        "intro_text": {
+          "intro_icon" : "./logo_zerodebug_white.png",
+          "intro_heading": "Features",
+          "intro_text": "We are a Berlin based company working on our passion to make music touchable"
+        },
+        "intro_video": {
+          "src_url": "https://www.youtube.com/embed/tOnIWRhS9R8"
+        },
+        "desc_container": [
+          {
+            "heading": "Overview",
+            "image_source": "./P9860094.jpeg",
+            "list_items": [
+              {
+                "heading": "Decks",
+                "description": "Choose one of the supplied templates or create your own individual interface with up to 8 decks.",
+                "icon_source": "",
+                "image_source": "https://zerodebug.com/images/soda_8deck.png"
+              },
+              {
+                "heading": "Browser",
+                "description": "Create your own playlists, search for songs or import tracks from iCloud.",
+                "icon_source": "./multi_device.png",
+                "image_source": "https://zerodebug.com/images/soda_browser.png"
+              },
+              {
+                "heading": "Effects",
+                "description": "soda includes 5 effects and supports AUv3 for an unlimited choice of 3rd party FX.",
+                "icon_source": "./multiview_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "MIDI",
+                "description": "Completely MIDI mappable to any class compliant controller.",
+                "icon_source": "./connection_usbwifi.png",
+                "image_source": "https://zerodebug.com/images/soda_midi.png"
+              }
+            ]
+          }
+        ]        
+      },
+      {
+        "icon_source": "./soda_icon_web.png",
+        "app_id": "modstep",
+        "app_name_string": "soda",
+        "year": 2018,
+        "intro_field": {
+          "image_source": "https://zerodebug.com/images/soda_layout.png",
+          "intro_text": "soda is here to refresh the way you DJ",
+          "sub_intro_text": "soda introduces a customizable user interface that lets you focus only on the features you need.",
+          "app_store": [
+            {
+              "id": "ios app_store",
+              "name": "iOS",
+              "url": "https://itunes.apple.com/us/app/soda-dj-app/id1118842181?ls=1&mt=8"
+            }
+          ]
+        },
+        "overview_container": [
+          {
+            "heading": "Decks",
+            "icon_source": "https://zerodebug.com/images/ta_logo_2048.png",
+            "app_id": "soda",
+            "description": "up to 8 decks"
+          },
+          {
+            "heading": "Effects",
+            "icon_source": "./studiomux_icon_web.png",
+            "app_id": "soda",
+            "description": "5 internal decks & IAA"
+          },
+          {
+            "heading": "MIDI",
+            "icon_source": "./modstep_icon_web.png",
+            "app_id": "soda",
+            "description": "completely midi assignable"
+          },
+          {
+            "heading": "Editor",
+            "icon_source": "./soda_icon_web.png",
+            "app_id": "soda",
+            "description": "completely free editable layout"
+          }
+        ],  
+        "intro_text": {
+          "intro_icon" : "./logo_zerodebug_white.png",
+          "intro_heading": "Features",
+          "intro_text": "We are a Berlin based company working on our passion to make music touchable"
+        },
+        "intro_video": {
+          "src_url": "https://www.youtube.com/embed/tOnIWRhS9R8"
+        },
+        "desc_container": [
+          {
+            "heading": "Overview",
+            "image_source": "./P9860094.jpeg",
+            "list_items": [
+              {
+                "heading": "Decks",
+                "description": "Choose one of the supplied templates or create your own individual interface with up to 8 decks.",
+                "icon_source": "",
+                "image_source": "https://zerodebug.com/images/soda_8deck.png"
+              },
+              {
+                "heading": "Browser",
+                "description": "Create your own playlists, search for songs or import tracks from iCloud.",
+                "icon_source": "./multi_device.png",
+                "image_source": "https://zerodebug.com/images/soda_browser.png"
+              },
+              {
+                "heading": "Effects",
+                "description": "soda includes 5 effects and supports AUv3 for an unlimited choice of 3rd party FX.",
+                "icon_source": "./multiview_icon.png",
+                "image_source": "./touchable_landing.png"
+              },
+              {
+                "heading": "MIDI",
+                "description": "Completely MIDI mappable to any class compliant controller.",
+                "icon_source": "./connection_usbwifi.png",
+                "image_source": "https://zerodebug.com/images/soda_midi.png"
+              }
+            ]
+          }
+        ]        
+      }
+    ]
+  }

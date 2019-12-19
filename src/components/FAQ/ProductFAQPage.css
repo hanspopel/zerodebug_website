@@ -1,0 +1,68 @@
+accordion article a {
+	color: #dbdbdb;
+	text-decoration: none;
+	font-weight: 600;
+}
+accordion article a:hover, a:active {
+	color: #ffdd44;
+	font-weight: 600;
+}
+#container {
+	margin: 0 auto;
+	width: 75%;
+	padding-bottom: 45px;
+}
+#accordion input {
+	display: none;
+}
+#accordion label {
+	background: #666;
+	border-radius: 25px;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: 1em 1em;
+	z-index: 20;
+	font-weight: 300;
+}
+#accordion label:hover {
+	background: #888;
+}
+#accordion input:checked + label {
+	background: #999;
+	border-radius: 25px 25px 0 0;
+	color: #dbdbdb;
+	margin-bottom: 0;
+}
+#accordion article {
+	background: #444;
+	height: 0px;
+	overflow: hidden;
+	z-index: 10;
+	align-content: center;
+}
+#accordion article p {
+	padding: 1em;
+}
+accordion article p a {
+	color: #dbdbdb;
+	text-decoration: none;
+	font-weight: 600;
+}
+accordion article p a:hover, a:active {
+	color: #ffdd44;
+	font-weight: 600;
+}
+
+#accordion input:checked article {
+}
+#accordion input:checked ~ article {
+	border-radius: 0 0 25px 25px;
+	/*border-bottom-right-radius: .5em;*/
+	height: auto;
+	line-height: 1.6;
+	margin-bottom: .125em;
+	padding-top: 20;
+	padding-bottom: 20px;
+	align-content: center;
+}

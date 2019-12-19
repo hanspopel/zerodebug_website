@@ -1,0 +1,184 @@
+{
+    "products": [
+        {
+            "app_id": "touchAble",
+            "app_name_string": "touchAble Pro",
+            "year": 2018,
+            "installer_navbars": [
+                {
+                    "submenu_id": "setup-win",
+                    "heading": "touchAble",
+                    "image_source": "./P9860094.jpeg",
+                    "list_items": [
+                        {
+                            "heading": "Download",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Install",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Install Server",
+                            "description": "change between split of fullscreen",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./touchable_landing.png"
+                        },
+                        {
+                            "heading": "Install Scripts",
+                            "description": "works wired (ios) and on wifi",
+                            "icon_source": "./connection_usbwifi.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Setup Live",
+                            "description": "full API support",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./touchable_landing.png"
+                        },
+                        {
+                            "heading": "Setup touchAble",
+                            "description": "Editor for Devices and full API",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Finish",
+                            "description": "Editor for Devices and full API",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        }
+                    ]
+                },
+                {
+                    "submenu_id": "setup-mac",
+                    "heading": "touchAble",
+                    "image_source": "./P9860094.jpeg",
+                    "list_items": [
+                        {
+                            "heading": "Download",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Video Guide",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Install Server",
+                            "description": "change between split of fullscreen",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./touchable_landing.png"
+                        },
+                        {
+                            "heading": "Install Scripts",
+                            "description": "works wired (ios) and on wifi",
+                            "icon_source": "./connection_usbwifi.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Setup Live",
+                            "description": "full API support",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./touchable_landing.png"
+                        },
+                        {
+                            "heading": "Setup touchAble",
+                            "description": "Editor for Devices and full API",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Finish",
+                            "description": "Editor for Devices and full API",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "app_id": "studiomux",
+            "app_name_string": "studiomux",
+            "year": 2018,
+            "installer_navbars": [
+                {
+                    "submenu_id": "setup-win",
+                    "heading": "studiomux",
+                    "image_source": "./P9860094.jpeg",
+                    "list_items": [
+                        {
+                            "heading": "Download",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Video Guide",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Install Server",
+                            "description": "change between split of fullscreen",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./touchable_landing.png"
+                        },
+                        {
+                            "heading": "Install Scripts",
+                            "description": "works wired (ios) and on wifi",
+                            "icon_source": "./connection_usbwifi.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Setup Live",
+                            "description": "full API support",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./touchable_landing.png"
+                        },
+                        {
+                            "heading": "Setup touchAble",
+                            "description": "Editor for Devices and full API",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Finish",
+                            "description": "Editor for Devices and full API",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        }
+                    ]
+                },
+                {
+                    "submenu_id": "setup-mac",
+                    "heading": "studiomux",
+                    "image_source": "./P9860094.jpeg",
+                    "list_items": [
+                        {
+                            "heading": "Download",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        },
+                        {
+                            "heading": "Install",
+                            "description": "works on all platforms",
+                            "icon_source": "./multi_platform.png",
+                            "image_source": "./P9860094.jpeg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
