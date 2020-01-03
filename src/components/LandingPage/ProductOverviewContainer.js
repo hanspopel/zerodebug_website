@@ -21,9 +21,9 @@ export default class ProductOverviewContainer extends React.Component {
             );
         }
 
-        let zerodebug_productboxes = this.state.product.overview_container.map((a_product, i) => {
+        let productboxes = this.state.product.overview_container.map((a_product, i) => {
             return (
-                <div class="align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3" styles={this.styles.backgrounds[i%8]}>
+                <div class="align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3" style={this.styles.backgrounds[i % 8]}>
                     <a href={a_product.heading}>
                         <div class="row inner-product-box">
                             <div class="col-8 col-sm-12">
@@ -45,18 +45,14 @@ export default class ProductOverviewContainer extends React.Component {
             )
         })
 
-        let second_container = (
-            <div class="p-3" style={{ backgroundColor: "#C0C0C0", color: "black" }}>
-                <h1 >{this.state.product.intro_text.intro_heading}</h1>
-                <div class="row my-5 align-items-center" >
-                    {zerodebug_productboxes}
-                </div>
-            </div>
-        )
-        
         return (
             <div class="align-items-center" style={{ backgroundColor: "#C0C0C0", color: "black" }}>
-                {second_container}
+                <div class="p-3" style={{ backgroundColor: "#C0C0C0", color: "black" }}>
+                    <h1 >{this.state.product.intro_text.intro_heading}</h1>
+                    <div class="row my-5 align-items-center" >
+                        {productboxes}
+                    </div>
+                </div>
             </div>
         );
     }

@@ -43,7 +43,7 @@ export default class ProductFAQPage extends React.Component {
             return (
                 <div>
                     <input type="checkbox" id={a_ref}></input>
-                    <label for={a_ref} style={this.styles.backgrounds[i % 8]}>
+                    <label for={a_ref} style={this.styles.backgrounds[i % 7]}>
                         {list_item.question}
                     </label>
                     <article>
