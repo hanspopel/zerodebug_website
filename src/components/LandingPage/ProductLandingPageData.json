@@ -13,17 +13,20 @@
             {
               "id": "ios app_store",
               "name": "iOS",
-              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8"
+              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8",
+              "class": "fa fa-apple"
             },
             {
               "id": "android app_store",
               "name": "Android",
-              "url": "https://play.google.com/store/apps/details?id=com.zerodebug.touchablepro"
+              "url": "https://play.google.com/store/apps/details?id=com.zerodebug.touchablepro",
+              "class": "fa fa-android"
             },
             {
               "id": "windows app_store",
               "name": "Windows",
-              "url": "https://www.microsoft.com/store/apps/9P41L3H6M11K"
+              "url": "https://www.microsoft.com/store/apps/9P41L3H6M11K",
+              "class": "fa fa-windows"
             }
           ]
         },
@@ -178,17 +181,8 @@
             {
               "id": "ios app_store",
               "name": "iOS",
-              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8"
-            },
-            {
-              "id": "android app_store",
-              "name": "Android",
-              "url": "https://play.google.com/store/apps/details?id=com.zerodebug.touchablepro"
-            },
-            {
-              "id": "windows app_store",
-              "name": "Windows",
-              "url": "https://www.microsoft.com/store/apps/9P41L3H6M11K"
+              "url": "https://itunes.apple.com/us/app/touchable-pro/id1205967746?ls=1&mt=8",
+              "class": "fa fa-apple"
             }
           ]
         },
@@ -450,7 +444,8 @@
             {
               "id": "ios app_store",
               "name": "iOS",
-              "url": "https://itunes.apple.com/us/app/soda-dj-app/id1118842181?ls=1&mt=8"
+              "url": "https://itunes.apple.com/us/app/soda-dj-app/id1118842181?ls=1&mt=8",
+              "class": "fa fa-apple"
             }
           ]
         },
@@ -534,7 +529,8 @@
             {
               "id": "ios app_store",
               "name": "iOS",
-              "url": "https://itunes.apple.com/us/app/soda-dj-app/id1118842181?ls=1&mt=8"
+              "url": "https://itunes.apple.com/us/app/soda-dj-app/id1118842181?ls=1&mt=8",
+              "class": "fa fa-apple"
             }
           ]
         },

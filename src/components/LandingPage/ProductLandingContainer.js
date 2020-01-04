@@ -30,7 +30,7 @@ export default class ProductLandingContainer extends React.Component {
         )
 
         let store_list = product.intro_field.app_store.map(store_item => (
-            <li class="list-group-item flex-fill" style={{ borderWidth: "0px" }}><a class="store-button btn btn-outline-secondary btn-block." href={store_item.url}><i class="fa fa-apple" aria-hidden="true"></i> {store_item.name}</a></li>
+            <li class="list-group-item flex-fill" style={{borderColor: "transparent", borderWidth: "0px" }}><h1 class="p-4 btn-outline-secondary" style={{borderColor: "transparent", borderWidth: "0px" }} href={store_item.url}><i class={store_item.class} aria-hidden="true"></i> {store_item.name}</h1></li>
         ))
 
         let first_container = (<div class="position-relative overflow-hidden text-center container-main">
@@ -52,7 +52,7 @@ export default class ProductLandingContainer extends React.Component {
             <div class="">
                 {first_container}
                 <div class="store-icon-list my-5 mx-1 px-1 mx-md-5 px-md-5">
-                            <ul class="list-group list-group-horizontal borderless w-100 justify-content-center px-5">
+                            <ul class="list-group list-group-horizontal borderless w-100 justify-content-center px-1">
                                 {store_list}
                             </ul>
                         </div>
