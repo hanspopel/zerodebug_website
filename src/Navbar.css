@@ -5,7 +5,7 @@
 }
 
 .bottom_border_class {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.15);*/
   /*z-index: 8888;
   top: 50px;
   margin-top: -50px;*/
@@ -36,8 +36,15 @@
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
     transition: 0.5s ease-out;
-    /*background-color: var(--accent-bg-color);*/
+    background-color: var(--accent-bg-color);
 }
+
+.navbar-dark .dropdown-toggle:hover,
+.navbar-dark .dropdown-toggle:focus {
+    transition: 0.5s ease-out;
+    background-color: var(--accent-bg-color);
+}
+
 
 .navbar-dark .nav-link:hover,
 .navbar-dark .nav-link:focus {

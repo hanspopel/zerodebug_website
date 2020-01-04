@@ -34,18 +34,13 @@ export default class ProductLandingContainer extends React.Component {
         ))
 
         let first_container = (<div class="position-relative overflow-hidden text-center container-main">
-            <div class="">
+            <div class="glitch">
                 <img src={product.intro_field.image_source} width="100%"></img>
                 <div class="text-block-main ">
                     <div class="" style={{ marginTop: "10%" }}>
                         <img src={product.icon_source} width="6%"></img>
                         <h1 class="" style={{ fontSize: "4vw" }}>{product.app_name_string}</h1>
                         <p class="" style={{ fontSize: "2vw", margin: "5%" }}>{product.intro_field.intro_text}</p>
-                        <div class="store-icon-list mx-1 px-1 mx-md-5 px-md-5">
-                            <ul class="list-group list-group-horizontal borderless w-100 justify-content-center px-5">
-                                {store_list}
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 {first_subcontainer}
@@ -56,6 +51,11 @@ export default class ProductLandingContainer extends React.Component {
         return (
             <div class="">
                 {first_container}
+                <div class="store-icon-list my-5 mx-1 px-1 mx-md-5 px-md-5">
+                            <ul class="list-group list-group-horizontal borderless w-100 justify-content-center px-5">
+                                {store_list}
+                            </ul>
+                        </div>
             </div>
         );
     }

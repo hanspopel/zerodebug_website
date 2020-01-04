@@ -61,11 +61,13 @@ export default class MainPage extends React.Component {
     function PageContent(props) {
       let selectProductPage = props.selectProductPage;
       return (
-        <div>
+        <div class="mx-0">
+        <div class="mx-0">
           <div>
               <Navibar selectProductPage={selectProductPage} page_id={page_id} submenu_id={submenu_id} opacity={opacity}/>
           </div>
           {content}
+        </div>
         </div>
       );
     }

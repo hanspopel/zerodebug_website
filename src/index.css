@@ -9,7 +9,15 @@ body {
   background: black;
   font-style: normal; font-variant: normal; font-weight: 280; 
   font-size: 1.2em !important;
+    /* IE */
+    /*filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);*/
+    /* Chrome, Safari */
+    /*-webkit-filter: grayscale(0.8);*/
+    /* Firefox */
+    /*filter: grayscale(0.8);*/
 }
+
+
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2,.display-3,.display-4  {
   margin-bottom: 0.5rem;
@@ -108,6 +116,14 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: 
 
 .store-button {
   border-color: white;
+  color: white;
+  opacity: 1;
+
+}
+
+.store-button:hover {
+  transition: 1s ease-out;
+  background-color: var(--accent-bg-color);
   color: white;
   opacity: 1;
 
@@ -518,4 +534,16 @@ aside h2 {
     line-height: 30px;
     position:fixed;bottom:0;left:0;    
             background:lightgray;width:100%
+}
+
+.glitch:hover{
+  transition: 1s ease-out;
+  transform: scale(1.01);
+  filter: grayscale(0.1);
+}
+
+.glitch{
+  transition: 1s ease-out;
+  transform: scale(1);
+  filter: grayscale(0.5);
 }

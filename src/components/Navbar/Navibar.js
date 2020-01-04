@@ -15,10 +15,12 @@ export default class Navibar extends React.Component {
             page_id: this.props.page_id,
             data: data,
             data_sub: data_sub,
-            submenu_id: this.props.submenu_id
+            submenu_id: this.props.submenu_id,
+            scrollStatus:''
         };
         this.navclass_desc = "navbar navbar-expand-md navbar-dark bg-faded justify-content-center bottom_border_class";
         this.global_opacity = props.opacity;
+        this._timeout = null;
     }
 
     nav = React.createRef();
@@ -29,7 +31,7 @@ export default class Navibar extends React.Component {
         if (!this.nav.current) {
             return;
         }
-        this.nav.current.classList.add('navbar-black');
+        //this.nav.current.classList.add('navbar-black');
     }
 
     componentWillUnmount() {
@@ -38,7 +40,7 @@ export default class Navibar extends React.Component {
         if (!this.nav.current) {
             return;
         }
-        this.nav.current.classList.add('navbar-black');
+        //this.nav.current.classList.add('navbar-black');
     }
 
     formatColor(r, g, b, a) {
@@ -64,7 +66,7 @@ export default class Navibar extends React.Component {
             //this.nav.current.classList.add('navbar-transparent');
         }
         else {
-            //this.nav.current.classList.remove('navbar-transparent');
+            this.nav.current.classList.add('navbar-black');
         }
         if (lastScrollY > 1) {
             //this.nav.current.classList.add('navbar-black');
@@ -211,8 +213,8 @@ export default class Navibar extends React.Component {
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
-                <a class="navbar-brand" href="#" onClick={app_id = app_id, submenu_id = "landing_page", this.props.selectProductPage.bind(this, app_id, submenu_id)}><img src={sub_product.icon_source} width="30"></img></a>
                     <ul class="navbar-nav w-100  ml-auto justify-content-start">
+                    <a class="navbar-brand" href="#" onClick={app_id = app_id, submenu_id = "landing_page", this.props.selectProductPage.bind(this, app_id, submenu_id)}><img src={sub_product.icon_source} width="30"></img></a>
                     <div class="id-item">
                         <li class="nav-item text_color_accent">
                             <a class="nav-link text_color_accent" href="#" onClick={submenu_id = "landing_page", this.props.selectProductPage.bind(this, "zerodebug", submenu_id)}>Home</a>
@@ -240,7 +242,6 @@ export default class Navibar extends React.Component {
                 </div>
                 <div class="navbar-collapse collapse w-100">
                     <ul class="nav navbar-nav ml-auto w-100 justify-content-center">
-                        
                     </ul>
                 </div>
                 {second_coll_button}

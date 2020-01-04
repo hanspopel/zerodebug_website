@@ -46,11 +46,13 @@ export default class ProductOverviewContainer extends React.Component {
         })
 
         return (
-            <div class="align-items-center" style={{ backgroundColor: "#C0C0C0", color: "black" }}>
+            <div class="align-items-center">
                 <div class="p-3" style={{ backgroundColor: "#C0C0C0", color: "black" }}>
                     <h1 >{this.state.product.intro_text.intro_heading}</h1>
+                    <div class="my-5">
                     <div class="row my-5 align-items-center" >
                         {productboxes}
+                    </div>
                     </div>
                 </div>
             </div>

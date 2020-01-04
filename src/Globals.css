@@ -2,15 +2,24 @@
     --main-bg-color: black;
     --secodary-bg-color: black;
     --navbar-bg-color: transparent;
-    --accent-bg-color: rgba(107, 112, 196);
+    /*--accent-bg-color: rgba(107, 112, 196);
     --secondary-accent-bg-color: rgba(196, 140, 209);
     --third-accent-bg-color: rgba(40, 160, 153);
     --fourth-accent-bg-color: rgba(132, 153, 0);
-    --fifth-accent-bg-color: rgba(205, 74, 46);
+    --fifth-accent-bg-color: rgba(205, 74, 46);*/
     --sixth-accent-bg-color: rgba(219, 51, 46);
     --seventh-accent-bg-color: rgba(212, 51, 135);
     --eight-accent-bg-color: rgba(212, 51, 135);
     --touchable-bg-color: rgba(245,74,83);
+
+
+    --accent-bg-color: #FF652F;
+    --secondary-accent-bg-color: #FFE400;
+    --third-accent-bg-color: #14A76C;
+    --fourth-accent-bg-color: rgba(132, 153, 0);
+    --fifth-accent-bg-color: rgba(205, 74, 46);
+
+
     --small-margin: 25px;
     --big-margin: 50px;
   }

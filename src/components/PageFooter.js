@@ -6,7 +6,10 @@ export default class PageFooter extends React.Component {
             <div class="footer_styles">
             <div class="footer_margin">
             <footer class="container" width="100%">
-                <div class="row">
+            <button class="navbar-toggler justify-content-start" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row" id="navbarSupportedContent">
                     <div class="col-6 col-sm">
                         <h5 class="footer-heading footer_margin">Location</h5>
                         <ul class="list-unstyled text-small">
