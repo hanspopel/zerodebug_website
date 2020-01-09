@@ -46,6 +46,7 @@ export default class ProductOverviewContainer extends React.Component {
         })
 
         return (
+            <div class="">
             <div class="align-items-center">
                 <div class="p-3" style={{ backgroundColor: "#C0C0C0", color: "black" }}>
                     <h1 >{this.state.product.intro_text.intro_heading}</h1>
@@ -54,6 +55,7 @@ export default class ProductOverviewContainer extends React.Component {
                         {productboxes}
                     </div>
                     </div>
+                </div>
                 </div>
             </div>
         );

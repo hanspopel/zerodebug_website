@@ -33,6 +33,18 @@ export default class ProductLandingContainer extends React.Component {
             <li class="list-group-item flex-fill" style={{borderColor: "transparent", borderWidth: "0px" }}><h1 class="p-4 btn-outline-secondary" style={{borderColor: "transparent", borderWidth: "0px" }} href={store_item.url}><i class={store_item.class} aria-hidden="true"></i> {store_item.name}</h1></li>
         ))
 
+        let store_part;
+
+        if (store_list) {
+            store_part = (
+                <div class="store-icon-list my-5 mx-1 px-1 mx-md-5 px-md-5">
+                            <ul class="list-group list-group-horizontal borderless w-100 justify-content-center px-1">
+                                {store_list}
+                            </ul>
+                </div>
+            )
+        }
+
         let first_container = (<div class="position-relative overflow-hidden text-center container-main">
             <div class="glitch">
                 <img src={product.intro_field.image_source} width="100%"></img>
@@ -51,11 +63,7 @@ export default class ProductLandingContainer extends React.Component {
         return (
             <div class="">
                 {first_container}
-                <div class="store-icon-list my-5 mx-1 px-1 mx-md-5 px-md-5">
-                            <ul class="list-group list-group-horizontal borderless w-100 justify-content-center px-1">
-                                {store_list}
-                            </ul>
-                        </div>
+                {store_part}
             </div>
         );
     }

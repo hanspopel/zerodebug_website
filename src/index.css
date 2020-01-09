@@ -260,7 +260,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: 
 .product_row_box:hover{
   transition: 1s ease-out;
   background-color: white;
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .product_row_box{

@@ -4,6 +4,14 @@
     border-bottom: 0px solid black;
 }
 
+
+.id-item > li   {
+  /*margin-bottom: 0.5rem;
+  font-family: "Helvetica Neue";
+  font-weight: 340;
+  font-size: 1.0em !important;*/
+}
+
 .bottom_border_class {
   /*border-bottom: 1px solid rgba(255, 255, 255, 0.15);*/
   /*z-index: 8888;
