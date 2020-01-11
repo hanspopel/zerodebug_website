@@ -22,7 +22,7 @@ export default class PatientTable extends React.Component {
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll, true);
     this.nav.current.classList.add('ref={this.nav}');
-    //this.nav.current.classList.add('fixed-bottom');
+    //this.nav.current.classList.add('fixed-top');
   }
 
   componentWillUnmount() {
@@ -52,7 +52,7 @@ export default class PatientTable extends React.Component {
   createNavbar() {
     let selectSubPage = this.selectSubPage;
     let page_id = this.state.page_id;
-    if (page_id === "szerodebug") {
+    if (page_id === "azerodebug") {
       return (
         <div>
           <SubNavbar page_id={page_id} selectSubPage={selectSubPage} />

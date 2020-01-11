@@ -92,11 +92,11 @@ export default class ProductInstallPageMain extends React.Component {
 
             return (
 
-                <div class="col-12 col-sm-12" style={this.styles.backgrounds[i]}>
-                    <h1 class="text-left text_color_black align-items-start">
+                <div class="col-12 col-sm-12" style={{backgroundColor:"black"}}>
+                    <h1 class="text-left text_color_black align-items-start" style={this.styles.backgrounds[i]}>
                         {list_item.heading}
                     </h1>
-                    <section id={a_ref} style={this.styles.backgrounds[i]}>
+                    <section id={a_ref} style={{backgroundColor:"black"}}>
                         {content}
                     </section>
                 </div>
@@ -105,7 +105,7 @@ export default class ProductInstallPageMain extends React.Component {
 
 
         return (
-            <div>
+            <div style={{backgroundColor:"black"}}>
                 {inner_content}
             </div>
         );

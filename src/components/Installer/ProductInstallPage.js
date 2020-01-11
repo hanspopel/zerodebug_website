@@ -39,7 +39,7 @@ export default class ProductInstallPage extends React.Component {
         }
 
         let nav_bar = (
-            <div class="col-md-2 col-12" >
+            <div class="col-md-1 col-12" >
                 <div class="row align-items-center" style={{ marginRight: "0px", padding: "0px" }}>
                 <ProductInstallNavbar page_id={this.state.page_id} submenu_id={this.state.submenu_id}/>
                 </div>
@@ -47,7 +47,7 @@ export default class ProductInstallPage extends React.Component {
         )
 
         let installer_content = (
-            <div class="col-md-10 col-12 vh-100 overflow-auto align-items-center " style={{ backgroundColor: "#181818", margin: "0px", padding: "0px" }}>
+            <div class="col-md-11 col-12 vh-100 overflow-auto align-items-center " style={{ backgroundColor: "#181818", margin: "0px", padding: "0px" }}>
                 <div style={{ backgroundColor: "black", height: "56px" }}>
                 </div>
                 <ProductInstallPageMain page_id={this.state.page_id} submenu_id={this.state.submenu_id}/>

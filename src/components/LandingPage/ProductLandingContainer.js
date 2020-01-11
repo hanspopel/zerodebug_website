@@ -35,7 +35,7 @@ export default class ProductLandingContainer extends React.Component {
 
         let store_part;
 
-        if (store_list) {
+        if (product.intro_field.app_store.length > 0) {
             store_part = (
                 <div class="store-icon-list my-5 mx-1 px-1 mx-md-5 px-md-5">
                             <ul class="list-group list-group-horizontal borderless w-100 justify-content-center px-1">
