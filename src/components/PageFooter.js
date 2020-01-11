@@ -22,9 +22,9 @@ export default class PageFooter extends React.Component {
                     <div class="col-6  col-sm">
                         <h5 class="footer-heading footer_margin">Contact</h5>
                         <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Forum</a></li>
-                            <li><a class="text-muted" href="#">Helpdesk</a></li>
-                            <li><a class="text-muted" href="#">Mail</a></li>
+                            <li><a class="text-muted" href="https://community.zerodebug.com/" target="blank">Forum</a></li>
+                            <li><a class="text-muted" href="http://help.touch-able.com/" target="blank">Helpdesk</a></li>
+                            <li><a class="text-muted" href="mailto:pascal@zerodebug.com?subject=A%20Mail%20from%20Website">Mail</a></li>
                             <li><a class="text-muted" href="#"></a></li>
                         </ul>
                     </div>

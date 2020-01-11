@@ -16,6 +16,10 @@ export default class MainPage extends React.Component {
 
   selectProductPage(app_id, submenu_id) {
     this.setState({ page_id: app_id, submenu_id: submenu_id });
+    var a_page_id = app_id + "/" + submenu_id;
+    //window.history.pushState('page2', 'Title', a_page_id);
+    document.title = app_id;
+    window.history.replaceState('page2', 'Title', document.title);
   };
 
   handleScroll(event) {

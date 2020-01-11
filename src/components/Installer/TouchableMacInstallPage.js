@@ -20,7 +20,7 @@ export default class TouchableMacInstallPage extends React.Component {
             <div class="callout text-center">
                 <h4>Please download our latest server package to the mac you use for Ableton Live</h4>
                 <a href="https://zerodebug.com/server/touchAble428.pkg">
-                    <img src="https://zerodebug.com/images/pkg.png" alt="pkg-icon" class="app-icon" height="30"></img> touchAble428.pkg</a>
+                    <img src="https://zerodebug.com/images/pkg.png" alt="pkg-icon" class="app-icon" height="30"></img><h3> touchAble428.pkg</h3></a>
                 <div class="call">
                     <h4>Next step: Server Installation</h4>
                 </div>

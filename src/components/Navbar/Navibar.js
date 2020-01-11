@@ -242,6 +242,7 @@ export default class Navibar extends React.Component {
                 </div>
                 <div class="navbar-collapse collapse w-100">
                     <ul class="nav navbar-nav ml-auto w-100 justify-content-center">
+
                     </ul>
                 </div>
                 {second_coll_button}

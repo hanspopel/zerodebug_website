@@ -39,9 +39,10 @@ export default class TouchableWinInstallPage extends React.Component {
 
         this.vector[1] = (
             <div id="block-2">
-                <div class="videoWrapper">
-                    <iframe width="560" height="349" src="https://www.youtube.com/embed/ZCfKtxPxwAc" frameborder="0" allowfullscreen></iframe>
-                </div>
+                    <div class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZCfKtxPxwAc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <h3>touchAble Pro – Win Setup Video</h3>
             </div>
         )
 

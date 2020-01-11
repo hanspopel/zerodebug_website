@@ -517,12 +517,12 @@
         ]        
       },
       {
-        "icon_source": "./soda_icon_web.png",
+        "icon_source": "./modstep_icon_web.png",
         "app_id": "modstep",
-        "app_name_string": "soda",
+        "app_name_string": "modstep",
         "year": 2018,
         "intro_field": {
-          "image_source": "https://zerodebug.com/images/soda_layout.png",
+          "image_source": "modstep_landing.png",
           "intro_text": "soda is here to refresh the way you DJ",
           "sub_intro_text": "soda introduces a customizable user interface that lets you focus only on the features you need.",
           "app_store": [

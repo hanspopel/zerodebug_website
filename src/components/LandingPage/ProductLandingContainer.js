@@ -45,9 +45,9 @@ export default class ProductLandingContainer extends React.Component {
             )
         }
 
-        let first_container = (<div class="position-relative overflow-hidden text-center container-main">
+        let first_container = (<div class="position-relative overflow-hidden vh-100 text-center container-main">
             <div class="glitch">
-                <img src={product.intro_field.image_source} width="100%"></img>
+                <img class="img-fluid" src={product.intro_field.image_source} width="100%"></img>
                 <div class="text-block-main ">
                     <div class="" style={{ marginTop: "10%" }}>
                         <img src={product.icon_source} width="6%"></img>
