@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zerodebug_website/static/css/main.84ba4ef2.chunk.css",
-    "main.js": "/zerodebug_website/static/js/main.b3635e0d.chunk.js",
-    "main.js.map": "/zerodebug_website/static/js/main.b3635e0d.chunk.js.map",
+    "main.js": "/zerodebug_website/static/js/main.d0a38bf4.chunk.js",
+    "main.js.map": "/zerodebug_website/static/js/main.d0a38bf4.chunk.js.map",
     "runtime-main.js": "/zerodebug_website/static/js/runtime-main.978c3053.js",
     "runtime-main.js.map": "/zerodebug_website/static/js/runtime-main.978c3053.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/zerodebug_website/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.c0be4461.chunk.js": "/zerodebug_website/static/js/2.c0be4461.chunk.js",
-    "static/js/2.c0be4461.chunk.js.map": "/zerodebug_website/static/js/2.c0be4461.chunk.js.map",
+    "static/js/2.3c4d3a2b.chunk.js": "/zerodebug_website/static/js/2.3c4d3a2b.chunk.js",
+    "static/js/2.3c4d3a2b.chunk.js.map": "/zerodebug_website/static/js/2.3c4d3a2b.chunk.js.map",
     "index.html": "/zerodebug_website/index.html",
-    "precache-manifest.c6f0c7ca80ab72fccbba508a5efef155.js": "/zerodebug_website/precache-manifest.c6f0c7ca80ab72fccbba508a5efef155.js",
+    "precache-manifest.3be471989cf9002c38e7227b41bdc46f.js": "/zerodebug_website/precache-manifest.3be471989cf9002c38e7227b41bdc46f.js",
     "service-worker.js": "/zerodebug_website/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/zerodebug_website/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.84ba4ef2.chunk.css.map": "/zerodebug_website/static/css/main.84ba4ef2.chunk.css.map"
@@ -17,8 +17,8 @@
   "entrypoints": [
     "static/js/runtime-main.978c3053.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.c0be4461.chunk.js",
+    "static/js/2.3c4d3a2b.chunk.js",
     "static/css/main.84ba4ef2.chunk.css",
-    "static/js/main.b3635e0d.chunk.js"
+    "static/js/main.d0a38bf4.chunk.js"
   ]
 }
