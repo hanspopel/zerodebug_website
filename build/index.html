@@ -1,1 +1,198 @@
-<!doctype html><html class="csstransforms" lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/zerodebug_website/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="logo192.png"/><script src="https://use.fontawesome.com/5fb7047e6d.js" type="text/javascript"></script><link rel="manifest" href="/zerodebug_website/manifest.json"/><title>React App</title><link href="/zerodebug_website/static/css/2.b0bb7f2c.chunk.css" rel="stylesheet"><link href="/zerodebug_website/static/css/main.b76dff46.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script><script>!function(f){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],i=0,l=[];i<n.length;i++)t=n[i],Object.prototype.hasOwnProperty.call(p,t)&&p[t]&&l.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(f[r]=o[r]);for(s&&s(e);l.length;)l.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=i(i.s=t[0]))}return e}var t={},p={1:0},c=[];function i(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return f[e].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.m=f,i.c=t,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(r,e){if(1&e&&(r=i(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)i.d(t,n,function(e){return r[e]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/zerodebug_website/";var r=this.webpackJsonpzerodebug_website=this.webpackJsonpzerodebug_website||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script><script src="/zerodebug_website/static/js/2.158686a7.chunk.js"></script><script src="/zerodebug_website/static/js/main.5e36995e.chunk.js"></script></body></html>
+<!DOCTYPE html><html class="csstransforms" lang="en"><head><meta charset="utf-8"><link rel="icon" href="/zerodebug_website/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="Web site created using create-react-app"><link rel="apple-touch-icon" href="logo192.png"><script src="https://use.fontawesome.com/5fb7047e6d.js" type="text/javascript"></script><link rel="manifest" href="/zerodebug_website/manifest.json"><title>Zerodebug</title><link href="/zerodebug_website/static/css/2.b0bb7f2c.chunk.css" rel="stylesheet"><link href="/zerodebug_website/static/css/main.84ba4ef2.chunk.css" rel="stylesheet"><style type="text/css">.bc-icons.breadcrumb-item::before,
+.bc-icons.breadcrumb-item::after {
+  content: none;
+}
+
+.bc-icons.breadcrumb-item + .active.breadcrumb-item::before,
+.bc-icons.breadcrumb-item + .active.breadcrumb-item::after{
+  content: none;
+}
+
+.bc-icons.breadcrumb-item.active {
+  color: #eeeeee;
+}
+</style><style type="text/css">.Ripple {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  opacity: 1;
+  transform: scale(0);
+}
+
+.Ripple-outline {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.Ripple.is-reppling {
+  animation: ripple 0.5s linear;
+}
+
+.Ripple-parent {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+</style><style type="text/css">.btn-group-vertical>.btn,
+.btn-group-vertical>.btn+.btn-group,
+.btn-group-vertical>.btn-group+.btn,
+.btn-group-vertical>.btn-group+.btn-group {
+  margin-left: 0px;
+}
+
+.btn-group-lg>.btn {
+  font-size: 0.9rem;
+  padding: 1rem 2.4rem;
+}
+
+.btn-group-sm>.btn {
+  font-size: 0.6rem;
+  padding: 0.5rem 1.6rem;
+}
+
+.btn-floating.btn.btn-sm,
+.btn-floating.btn.btn-lg {
+  padding: 0;
+}
+</style><style type="text/css">.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-fade .carousel-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block !important;
+  opacity: 0;
+  z-index: 0;
+  transition: transform 0ms ease-in-out, opacity 0.8s ease-out;
+}
+
+.carousel-fade .carousel-item.active {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+}
+
+.carousel-multi-item .carousel-item {
+  display: inline-block !important;
+}
+
+.carousel .carousel-slide-item {
+  transition: left 0.5s;
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-item-prev, .carousel-item-next {
+  z-index: 2;
+}
+</style><style type="text/css">.table-wrapper-scroll-y {
+  display: block;
+  max-height: 200px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+</style><style type="text/css">.dropup .dropdown-menu {
+  top: auto !important;
+  bottom: 100% !important;
+  transform: translate3d(5px, 5px, 0px) !important;
+}
+
+.dropdown-menu-right {
+  left: 0 !important;
+  right: auto !important;
+}
+</style><style type="text/css">.hamburger-button__checkbox {
+  display: none;
+}
+
+.hamburger-button__button {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  top: -5px;
+}
+
+label.hamburger-button__button {
+  margin-bottom: 0;
+}
+
+#nav-icon1 {
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 1px;
+  background-color: #fff;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 5px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 16px;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 27px;
+}
+
+.hamburger-button__checkbox:checked+#nav-icon1 span:nth-child(1) {
+  top: 16px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.hamburger-button__checkbox:checked+#nav-icon1 span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.hamburger-button__checkbox:checked+#nav-icon1 span:nth-child(3) {
+  top: 16px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+</style><script data-react-helmet="true"> src="./javascripts.js"</script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div class="App" data-reactroot=""><div class="main_bar_margin"><div class="mx-0"><div class="mx-0"><div><nav class="navbar navbar-expand-md navbar-dark bg-faded bottom_border_class fixed-top"><button class="navbar-toggler justify-content-start" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="navbar-collapse collapse w-100" id="navbarSupportedContent"><ul class="navbar-nav w-100  ml-auto justify-content-start"><a class="navbar-brand" href="#"><img src="./logo_zerodebug_white.png" width="30"></a><div class="id-item"><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="#">Hoasdasdasddme</a></li></div><div class="id-item"><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="http://help.touch-able.com/" target="_blank">11111</a></li></div><div class="id-item"><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="http://community.zerodebug.com/" target="_blank">1111</a></li></div><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a><div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:black"><div class="id-item"></div></div></li><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="#">touchAble</a></li></ul></div><div class="id-item"><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="#">studiomux</a></li></div><div class="id-item"><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="#">modstep</a></li></div><div class="id-item"><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="#">soda</a></li></div><div class="id-item"><li class="nav-item text_color_accent"><a class="nav-link text_color_accent" href="#">touchAble3</a></li></div></nav></div></div><div class="navbar-collapse collapse w-100"><ul class="nav navbar-nav ml-auto w-100 justify-content-center"></ul></div><div class="navbar-collapse collapse w-100" id="navbarSupportedContent2"><ul class="nav navbar-nav ml-auto w-100 justify-content-end"><div class="id-item"><li class="nav-item"><a class="nav-link" href="https://www.facebook.com/touchableapp/" title="Facebook" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li></div></ul></div></div><div></div><div><div class="main"><div class=""><div class="position-relative overflow-hidden vh-100 text-center container-main"><div class="glitch"><img class="img-fluid" src="./touchable_landing.png" width="100%"><div class="text-block-main "><div class="" style="margin-top:10%"><img src="./logo_zerodebug_white.png" width="6%"><h1 class="" style="font-size:4vw">zerodebug</h1><p class="" style="font-size:2vw;margin:5%">We are a Berlin based company working on our passion to make music touchable</p></div></div><div class="text-block-main-right"><h1 style="font-size:2vw"></h1></div></div></div></div><div class=""><div class="align-items-center"><div class="p-3" style="background-color:#C0C0C0;color:black"><h1>Our Apps</h1><div class="my-5"><div class="row my-5 align-items-center"><div class="align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3" style="background-color:var(--accent-bg-color)"><a href="touchAble"><div class="row inner-product-box"><div class="col-8 col-sm-12"><h4 class="text_color_black">touchAble</h4><div class="mb-1 mb-md-5"><div class="product_box_desc text_color_black">mobile device Live Controller</div></div></div><div class="col-4 col-sm-12"><img class="img_color_black" src="https://zerodebug.com/images/ta_logo_2048.png" height="80px"></div></div></a></div><div class="align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3" style="background-color:var(--secondary-accent-bg-color)"><a href="studiomux"><div class="row inner-product-box"><div class="col-8 col-sm-12"><h4 class="text_color_black">studiomux</h4><div class="mb-1 mb-md-5"><div class="product_box_desc text_color_black">audio and midi tranfer</div></div></div><div class="col-4 col-sm-12"><img class="img_color_black" src="./studiomux_icon_web.png" height="80px"></div></div></a></div><div class="align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3" style="background-color:var(--third-accent-bg-color)"><a href="modstep"><div class="row inner-product-box"><div class="col-8 col-sm-12"><h4 class="text_color_black">modstep</h4><div class="mb-1 mb-md-5"><div class="product_box_desc text_color_black">iOS Sequencer</div></div></div><div class="col-4 col-sm-12"><img class="img_color_black" src="./modstep_icon_web.png" height="80px"></div></div></a></div><div class="align-items-center text-center col-sm product_row_box py-2 m-1 py-md-5 mx-md-3" style="background-color:var(--fourth-accent-bg-color)"><a href="soda"><div class="row inner-product-box"><div class="col-8 col-sm-12"><h4 class="text_color_black">soda</h4><div class="mb-1 mb-md-5"><div class="product_box_desc text_color_black">iOS DJ App</div></div></div><div class="col-4 col-sm-12"><img class="img_color_black" src="./soda_icon_web.png" height="80px"></div></div></a></div></div></div></div></div></div><div class="videoWrapper"><iframe width="560" height="349" src="https://www.youtube.com/embed/R4_GRVPbDn8?rel=0&amp;controls=0&amp;autohid=1&amp;showinfo=0" frameborder="0"></iframe></div><div><div class="container-fluid " style="background-color:#181818;color:white;padding-bottom:50px;padding-top:50px"><h1 class="text-center" style="background-color:;color:white;font-size:3vw">touchAble</h1><div class="row my-5 align-items-center"><div class="col-md-4 col-12"><div class="row align-items-center" style="margin-right:0px;padding:0px"><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--secondary-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multi Device</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_device.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--third-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiview</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multiview_icon.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--fourth-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">USB &amp; Wifi</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./connection_usbwifi.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--fifth-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Maximum Control</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./api_icon.png" height="00px"></div></div></div></div></div><div class="col-md-8 col-12 align-items-center" style="margin:0px;padding:0px"><img src="./P9860094.jpeg" width="100%"><div class="text-block-main-bottom"><h2 class="text-center" style="font-size:2vw">Multiplatform</h2></div></div></div></div></div><div><div class="container-fluid " style="background-color:#C0C0C0;color:black;padding-bottom:50px;padding-top:50px"><h1 class="text-center" style="background-color:;color:black;font-size:3vw">studiomux</h1><div class="row my-5 align-items-center"><div class="col-md-8 col-12 align-items-center" style="margin:0px;padding:0px"><img src="./studiomux_landing2.png" width="100%"><div class="text-block-main-bottom"><h2 class="text-center" style="font-size:2vw">Multiplatform</h2></div></div><div class="col-md-4 col-12"><div class="row align-items-center" style="margin-right:0px;padding:0px"><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--secondary-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--third-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--fourth-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--fifth-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div></div></div></div></div></div><div><div class="container-fluid " style="background-color:#181818;color:white;padding-bottom:50px;padding-top:50px"><h1 class="text-center" style="background-color:;color:white;font-size:3vw">modstep</h1><div class="row my-5 align-items-center"><div class="col-md-4 col-12"><div class="row align-items-center" style="margin-right:0px;padding:0px"><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--secondary-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--third-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--fourth-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--fifth-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div></div></div><div class="col-md-8 col-12 align-items-center" style="margin:0px;padding:0px"><img src="./modstep_landing2.png" width="100%"><div class="text-block-main-bottom"><h2 class="text-center" style="font-size:2vw">Multiplatform</h2></div></div></div></div></div><div><div class="container-fluid " style="background-color:#C0C0C0;color:black;padding-bottom:50px;padding-top:50px"><h1 class="text-center" style="background-color:;color:black;font-size:3vw">soda</h1><div class="row my-5 align-items-center"><div class="col-md-8 col-12 align-items-center" style="margin:0px;padding:0px"><img src="./soda_landing.png" width="100%"><div class="text-block-main-bottom"><h2 class="text-center" style="font-size:2vw">Multiplatform</h2></div></div><div class="col-md-4 col-12"><div class="row align-items-center" style="margin-right:0px;padding:0px"><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiplatform</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multi_platform.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--secondary-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Multiview</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./multiview_icon.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--third-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">USB &amp; Wifi</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./connection_usbwifi.png" height="00px"></div></div></div><div class="col-12 col-sm-12 product_detail_box m-1" style="background-color:var(--fourth-accent-bg-color)"><div class="row align-items-center product_detail_box py-2"><div class="col-12 col-sm-8 p-1 p-sm-3 align-items-start text-center text-sm-left inner-product-box"><h3 class="text_color_black align-items-start">Maximum Control</h3></div><div class="col-0 col-sm-0 align-items-center"><img class="img_color_black align-items-center" src="./api_icon.png" height="00px"></div></div></div></div></div></div></div></div></div></div><div class="footer_styles"><div class="footer_margin"><footer class="container" width="100%"><button class="navbar-toggler justify-content-start" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="row" id="navbarSupportedContent"><div class="col-6 col-sm"><h5 class="footer-heading footer_margin">Location</h5><ul class="list-unstyled text-small"><li><a class="text-muted" href="#">Zerodebug</a></li><li><a class="text-muted" href="#">Niemetzstrasse 47</a></li><li><a class="text-muted" href="#">12055 Berlin</a></li><li><a class="text-muted" href="#">Germany</a></li></ul></div><div class="col-6  col-sm"><h5 class="footer-heading footer_margin">Contact</h5><ul class="list-unstyled text-small"><li><a class="text-muted" href="https://community.zerodebug.com/" target="blank">Forum</a></li><li><a class="text-muted" href="http://help.touch-able.com/" target="blank">Helpdesk</a></li><li><a class="text-muted" href="mailto:pascal@zerodebug.com?subject=A%20Mail%20from%20Website">Mail</a></li><li><a class="text-muted" href="#"></a></li></ul></div><div class="col-6 col-sm"><h5 class="footer-heading footer_margin">Products</h5><ul class="list-unstyled text-small"><li><a class="text-muted" href="#">touchAble</a></li><li><a class="text-muted" href="#">studiomux</a></li><li><a class="text-muted" href="#">soda</a></li><li><a class="text-muted" href="#">modstep</a></li></ul></div><div class="col-sm col-sm"><h5 class="footer-heading footer_margin">Resources</h5><ul class="list-unstyled text-small"><li><a class="text-muted" href="#">Privacy Policy</a></li><li><a class="text-muted" href="#">Downloads</a></li><li><a class="text-muted" href="#">Archive</a></li></ul></div></div><div class="copyright-footer" style="padding:25px"><center><div class="">© 2018 <img src="./logo_zerodebug_white.png" width="30"> zerodebug. All Rights Reserved, zerodebug</div><container height="25px"></container></center></div></footer></div></div></div></div></div><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script><script>!function(f){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],i=0,l=[];i<n.length;i++)t=n[i],Object.prototype.hasOwnProperty.call(p,t)&&p[t]&&l.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(f[r]=o[r]);for(s&&s(e);l.length;)l.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=i(i.s=t[0]))}return e}var t={},p={1:0},c=[];function i(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return f[e].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.m=f,i.c=t,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(r,e){if(1&e&&(r=i(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)i.d(t,n,function(e){return r[e]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/zerodebug_website/";var r=this.webpackJsonpzerodebug_website=this.webpackJsonpzerodebug_website||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script><script src="/zerodebug_website/static/js/2.5d109f35.chunk.js"></script><script src="/zerodebug_website/static/js/main.f6141969.chunk.js"></script></body></html>

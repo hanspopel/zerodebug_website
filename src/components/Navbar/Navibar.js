@@ -217,17 +217,17 @@ export default class Navibar extends React.Component {
                     <a class="navbar-brand" href="#" onClick={app_id = app_id, submenu_id = "landing_page", this.props.selectProductPage.bind(this, app_id, submenu_id)}><img src={sub_product.icon_source} width="30"></img></a>
                     <div class="id-item">
                         <li class="nav-item text_color_accent">
-                            <a class="nav-link text_color_accent" href="#" onClick={submenu_id = "landing_page", this.props.selectProductPage.bind(this, "zerodebug", submenu_id)}>Home</a>
+                            <a class="nav-link text_color_accent" href="#" onClick={submenu_id = "landing_page", this.props.selectProductPage.bind(this, "zerodebug", submenu_id)}>Hoasdasdasddme</a>
                         </li>
                     </div>
                     <div class="id-item">
                         <li class="nav-item text_color_accent">
-                            <a class="nav-link text_color_accent" href="http://help.touch-able.com/" target="_blank">Helpdesk</a>
+                            <a class="nav-link text_color_accent" href="http://help.touch-able.com/" target="_blank">11111</a>
                         </li>
                     </div>
                     <div class="id-item">
                         <li class="nav-item text_color_accent">
-                            <a class="nav-link text_color_accent" href="http://community.zerodebug.com/" target="_blank">Forum</a>
+                            <a class="nav-link text_color_accent" href="http://community.zerodebug.com/" target="_blank">1111</a>
                         </li>
                     </div>
                         <li class="nav-item dropdown">

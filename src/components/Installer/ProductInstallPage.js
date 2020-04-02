@@ -40,7 +40,7 @@ export default class ProductInstallPage extends React.Component {
 
         let nav_bar = (
             <div class="col-md-1 col-12" >
-                <div class="row align-items-center" style={{ marginRight: "0px", padding: "0px" }}>
+                <div class="row align-items-center fixed-left" style={{ marginRight: "0px", padding: "0px" }}>
                 <ProductInstallNavbar page_id={this.state.page_id} submenu_id={this.state.submenu_id}/>
                 </div>
             </div>

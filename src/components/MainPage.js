@@ -19,6 +19,7 @@ export default class MainPage extends React.Component {
     var a_page_id = app_id + "/" + submenu_id;
     //window.history.pushState('page2', 'Title', a_page_id);
     document.title = app_id;
+    var new_title =  document.title + "/" + submenu_id;
     window.history.replaceState('page2', 'Title', document.title);
   };
 

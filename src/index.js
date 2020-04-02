@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import './Navbar.css'
 import './Globals.css'
+import { render } from 'react-snapshot';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
